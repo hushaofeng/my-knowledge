@@ -72,7 +72,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/YOUR_USERNAME/my-knowledge' },
+      { icon: 'github', link: 'https://github.com/peak2010/my-knowledge' },
     ],
 
     footer: {
@@ -81,7 +81,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/YOUR_USERNAME/my-knowledge/edit/main/docs/:path',
+      pattern: 'https://github.com/peak2010/my-knowledge/edit/main/docs/:path',
       text: '在 GitHub 上编辑',
     },
 
