@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 
-// GitHub Pages 部署在 https://<user>.github.io/my-knowledge/
+// Gitee Pages: https://<user>.gitee.io/my-knowledge/
 // 若仓库名不同，请修改 base
 export default defineConfig({
   title: 'My Knowledge',
@@ -18,6 +18,7 @@ export default defineConfig({
       { text: 'AI 总结', link: '/ai-summaries/' },
       { text: '速查表', link: '/cheatsheets/' },
       { text: '项目复盘', link: '/projects/' },
+      { text: 'Gitee', link: 'https://gitee.com/peak2010/my-knowledge' },
     ],
 
     sidebar: {
@@ -71,18 +72,14 @@ export default defineConfig({
       },
     },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/peak2010/my-knowledge' },
-    ],
-
     footer: {
-      message: '由 AI 辅助整理，Markdown 版本管理',
+      message: '由 AI 辅助整理，Markdown 版本管理 · 托管于 Gitee Pages',
       copyright: 'Copyright © 2026',
     },
 
     editLink: {
-      pattern: 'https://github.com/peak2010/my-knowledge/edit/main/docs/:path',
-      text: '在 GitHub 上编辑',
+      pattern: 'https://gitee.com/peak2010/my-knowledge/edit/main/docs/:path',
+      text: '在 Gitee 上编辑',
     },
 
     docFooter: {

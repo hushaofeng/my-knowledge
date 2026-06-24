@@ -1,0 +1,29 @@
+# Gitee Go 流水线：push 到 main 后自动构建并部署 Pages
+# 启用方式：Gitee 仓库 → 流水线 → 新建 → 选择本文件
+# 文档: https://gitee.com/help/articles/4292
+
+name: deploy-gitee-pages
+displayName: 构建并部署 Gitee Pages
+
+triggers:
+  push:
+    branches:
+      include:
+        - main
+        - master
+
+jobs:
+  deploy:
+    steps:
+      - step: build@nodejs
+        name: 安装依赖并构建
+        inputs:
+          nodeVersion: '20'
+        script:
+          - npm ci
+          - npm run docs:build
+
+      - step: GiteePages@gitee-pages
+        name: 部署到 Gitee Pages
+        inputs:
+          path: docs/.vitepress/dist
