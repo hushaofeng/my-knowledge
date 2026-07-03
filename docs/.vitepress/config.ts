@@ -16,6 +16,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: 'AI 总结', link: '/ai-summaries/' },
+      { text: '初中数学', link: '/math-junior/' },
       { text: '速查表', link: '/cheatsheets/' },
       { text: '项目复盘', link: '/projects/' },
       { text: 'Gitee', link: 'https://gitee.com/peak2010/my-knowledge' },
@@ -48,6 +49,17 @@ export default defineConfig({
         {
           text: '模板',
           items: [{ text: '文章模板', link: '/templates/article-template' }],
+        },
+      ],
+      '/math-junior/': [
+        {
+          text: '初中数学知识体系',
+          items: [
+            { text: '概览', link: '/math-junior/' },
+            { text: '七年级（初一）', link: '/math-junior/grade7' },
+            { text: '八年级（初二）', link: '/math-junior/grade8' },
+            { text: '九年级（初三）', link: '/math-junior/grade9' },
+          ],
         },
       ],
     },
