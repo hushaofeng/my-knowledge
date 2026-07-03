@@ -7,7 +7,7 @@ export default defineConfig({
   description: 'AI 整理的知识与经验总结',
   lang: 'zh-CN',
   base: '/my-knowledge/',
-  cleanUrls: true,
+  cleanUrls: false,
   lastUpdated: true,
   ignoreDeadLinks: ['/templates/'],
 
