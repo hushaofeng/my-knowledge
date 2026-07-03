@@ -34,6 +34,7 @@ features:
 ## 最近更新
 
 - [QQ 邮箱自动化：Playwright 登录与未读邮件抓取](/ai-summaries/qq-mail-automation) — 2026-05-26
+- [Hermes Agent 原理与使用建议](/ai-summaries/hermes-agent-guide) — 2026-07-03
 
 ## 如何新增一篇
 

@@ -28,6 +28,7 @@ export default defineConfig({
           items: [
             { text: '概览', link: '/ai-summaries/' },
             { text: 'QQ 邮箱自动化', link: '/ai-summaries/qq-mail-automation' },
+            { text: 'Hermes Agent 原理与使用建议', link: '/ai-summaries/hermes-agent-guide' },
           ],
         },
       ],
