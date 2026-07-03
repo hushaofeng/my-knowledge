@@ -6,7 +6,7 @@
 
 | 日期 | 标题 | 标签 |
 |------|------|------|
-| 2026-05-26 | [QQ 邮箱自动化：Playwright 登录与未读邮件抓取](./qq-mail-automation) | Python, Playwright, 自动化 |
+| 2026-05-26 | [QQ 邮箱自动化：Playwright 登录与未读邮件抓取](./qq-mail-automation.md) | Python, Playwright, 自动化 |
 
 ## 写作约定
 

@@ -28,8 +28,8 @@ export default defineConfig({
           text: 'AI 经验总结',
           items: [
             { text: '概览', link: '/ai-summaries/' },
-            { text: 'QQ 邮箱自动化', link: '/ai-summaries/qq-mail-automation' },
-            { text: 'Hermes Agent 原理与使用建议', link: '/ai-summaries/hermes-agent-guide' },
+            { text: 'QQ 邮箱自动化', link: '/ai-summaries/qq-mail-automation.md' },
+            { text: 'Hermes Agent 原理与使用建议', link: '/ai-summaries/hermes-agent-guide.md' },
           ],
         },
       ],
@@ -48,7 +48,7 @@ export default defineConfig({
       '/templates/': [
         {
           text: '模板',
-          items: [{ text: '文章模板', link: '/templates/article-template' }],
+          items: [{ text: '文章模板', link: '/templates/article-template.md' }],
         },
       ],
       '/math-junior/': [
@@ -56,9 +56,9 @@ export default defineConfig({
           text: '初中数学知识体系',
           items: [
             { text: '概览', link: '/math-junior/' },
-            { text: '七年级（初一）', link: '/math-junior/grade7' },
-            { text: '八年级（初二）', link: '/math-junior/grade8' },
-            { text: '九年级（初三）', link: '/math-junior/grade9' },
+            { text: '七年级（初一）', link: '/math-junior/grade7.md' },
+            { text: '八年级（初二）', link: '/math-junior/grade8.md' },
+            { text: '九年级（初三）', link: '/math-junior/grade9.md' },
           ],
         },
       ],

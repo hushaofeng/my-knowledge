@@ -37,12 +37,12 @@ features:
 
 ## 最近更新
 
-- [QQ 邮箱自动化：Playwright 登录与未读邮件抓取](/ai-summaries/qq-mail-automation) — 2026-05-26
-- [Hermes Agent 原理与使用建议](/ai-summaries/hermes-agent-guide) — 2026-07-03
+- [QQ 邮箱自动化：Playwright 登录与未读邮件抓取](/ai-summaries/qq-mail-automation.md) — 2026-05-26
+- [Hermes Agent 原理与使用建议](/ai-summaries/hermes-agent-guide.md) — 2026-07-03
 - [初中数学知识体系（广州中考）](/math-junior/) — 2026-07-03
 
 ## 如何新增一篇
 
-1. 复制 [文章模板](/templates/article-template) 到 `docs/ai-summaries/` 或对应目录
+1. 复制 [文章模板](/templates/article-template.md) 到 `docs/ai-summaries/` 或对应目录
 2. 在 `docs/.vitepress/config.ts` 的 sidebar 中添加入口
 3. 提交并 push，GitHub Actions 会自动部署到 Pages
