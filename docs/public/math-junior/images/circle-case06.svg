@@ -1,17 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260" width="300" height="260">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" width="300" height="240">
 <style>
-  .axis { stroke: #999; stroke-width: 1; }
-  .curve { stroke: #e74c3c; stroke-width: 2; fill: none; }
-  .line { stroke: #3498db; stroke-width: 1.5; fill: none; }
-  .dash { stroke: #999; stroke-width: 1; stroke-dasharray: 4 3; fill: none; }
-  .pt { fill: #2c3e50; }
-  .label { font-family: serif; font-size: 13px; fill: #2c3e50; }
-  .angle { stroke: #27ae60; stroke-width: 1; fill: rgba(39,174,96,0.1); }
-  .right { stroke: #27ae60; stroke-width: 1; fill: none; }
-  .shade { fill: rgba(52,152,219,0.1); stroke: #3498db; stroke-width: 1; }
-  .circ { stroke: #8e44ad; stroke-width: 1.5; fill: none; }
-  .tangent { stroke: #e67e22; stroke-width: 1.5; fill: none; }
-  .radius { stroke: #e74c3c; stroke-width: 1; stroke-dasharray: 5 3; fill: none; }
-</style>
-<circle cx="150" cy="150" r="80" class="circ"/><line x1="70" y1="150" x2="230" y2="150" class="line"/><line x1="90" y1="70" x2="210" y2="70" class="tangent"/><line x1="70" y1="150" x2="150" y2="70" class="line"/><line x1="230" y1="150" x2="150" y2="70" class="line"/><line x1="150" y1="150" x2="150" y2="70" class="radius"/><polyline points="150,80 160,80 160,70" class="right"/><circle cx="150" cy="150" r="3" class="pt"/><text x="158" y="168" class="label">O</text><circle cx="70" cy="150" r="3" class="pt"/><text x="52" y="155" class="label">A</text><circle cx="230" cy="150" r="3" class="pt"/><text x="238" y="155" class="label">B</text><circle cx="150" cy="70" r="3" class="pt"/><text x="158" y="62" class="label">C</text><text x="165" y="65" class="label" style="fill:#e67e22;font-size:11px">l</text>
+.ax{stroke:#bbb;stroke-width:.8;fill:none} .cv{stroke:#e74c3c;stroke-width:2;fill:none}
+.ln{stroke:#3498db;stroke-width:1.5;fill:none} .dm{stroke:#aaa;stroke-width:.8;stroke-dasharray:4 3;fill:none}
+.p{fill:#2c3e50} .lb{font:12px serif;fill:#2c3e50} .an{stroke:#27ae60;stroke-width:1;fill:rgba(39,174,96,.12)}
+.rt{stroke:#27ae60;stroke-width:1;fill:none} .sh{fill:rgba(52,152,219,.1);stroke:#3498db;stroke-width:1}
+.ci{stroke:#8e44ad;stroke-width:1.5;fill:none} .tn{stroke:#e67e22;stroke-width:1.5;fill:none}
+.rd{stroke:#e74c3c;stroke-width:1;stroke-dasharray:5 3;fill:none}
+</style><circle cx="150" cy="150" r="80" class="ci"/><line x1="70.0" y1="150.0" x2="230.0" y2="150.0" class="ln"/><line x1="90.0" y1="70.0" x2="210.0" y2="70.0" class="tn"/><line x1="70.0" y1="150.0" x2="150.0" y2="70.0" class="ln"/><line x1="230.0" y1="150.0" x2="150.0" y2="70.0" class="ln"/><line x1="150.0" y1="150.0" x2="150.0" y2="70.0" class="rd"/><polyline points="150.0,60.0 160.0,60.0 160.0,70.0" class="rt"/><circle cx="150.0" cy="150.0" r="3" class="p"/><text x="158.0" y="166.0" class="lb">O</text><circle cx="70.0" cy="150.0" r="3" class="p"/><text x="52.0" y="155.0" class="lb">A</text><circle cx="230.0" cy="150.0" r="3" class="p"/><text x="238.0" y="155.0" class="lb">B</text><circle cx="150.0" cy="70.0" r="3" class="p"/><text x="158.0" y="62.0" class="lb">C</text>
 </svg>
