@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260" width="300" height="260">
+<style>
+  .axis { stroke: #999; stroke-width: 1; }
+  .curve { stroke: #e74c3c; stroke-width: 2; fill: none; }
+  .line { stroke: #3498db; stroke-width: 1.5; fill: none; }
+  .dash { stroke: #999; stroke-width: 1; stroke-dasharray: 4 3; fill: none; }
+  .pt { fill: #2c3e50; }
+  .label { font-family: serif; font-size: 13px; fill: #2c3e50; }
+  .angle { stroke: #27ae60; stroke-width: 1; fill: rgba(39,174,96,0.1); }
+  .right { stroke: #27ae60; stroke-width: 1; fill: none; }
+  .shade { fill: rgba(52,152,219,0.1); stroke: #3498db; stroke-width: 1; }
+  .circ { stroke: #8e44ad; stroke-width: 1.5; fill: none; }
+  .tangent { stroke: #e67e22; stroke-width: 1.5; fill: none; }
+  .radius { stroke: #e74c3c; stroke-width: 1; stroke-dasharray: 5 3; fill: none; }
+</style>
+<circle cx="120" cy="130" r="60" class="circ"/><line x1="120" y1="130" x2="270" y2="130" class="dash"/><circle cx="180" cy="130" r="3" class="pt"/><text x="188" y="122" class="label">P(min)</text><circle cx="60" cy="130" r="3" class="pt"/><text x="15" y="122" class="label">P(max)</text><circle cx="120" cy="130" r="3" class="pt"/><text x="128" y="148" class="label">O</text><circle cx="270" cy="130" r="3" class="pt"/><text x="278" y="125" class="label">A</text>
+</svg>

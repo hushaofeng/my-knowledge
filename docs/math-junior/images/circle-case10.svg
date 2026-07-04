@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 260" width="280" height="260">
+<style>
+  .axis { stroke: #999; stroke-width: 1; }
+  .curve { stroke: #e74c3c; stroke-width: 2; fill: none; }
+  .line { stroke: #3498db; stroke-width: 1.5; fill: none; }
+  .dash { stroke: #999; stroke-width: 1; stroke-dasharray: 4 3; fill: none; }
+  .pt { fill: #2c3e50; }
+  .label { font-family: serif; font-size: 13px; fill: #2c3e50; }
+  .angle { stroke: #27ae60; stroke-width: 1; fill: rgba(39,174,96,0.1); }
+  .right { stroke: #27ae60; stroke-width: 1; fill: none; }
+  .shade { fill: rgba(52,152,219,0.1); stroke: #3498db; stroke-width: 1; }
+  .circ { stroke: #8e44ad; stroke-width: 1.5; fill: none; }
+  .tangent { stroke: #e67e22; stroke-width: 1.5; fill: none; }
+  .radius { stroke: #e74c3c; stroke-width: 1; stroke-dasharray: 5 3; fill: none; }
+</style>
+<line x1="32.5" y1="200" x2="172.5" y2="200" class="axis"/><line x1="50" y1="340" x2="50" y2="147.5" class="axis"/><polyline points="43.8,331.0 45.9,321.9 48.0,312.9 50.2,304.3 52.3,295.9 54.4,287.8 56.6,279.9 58.7,272.3 60.9,264.9 63.0,257.9 65.1,251.0 67.3,244.5 69.4,238.2 71.5,232.1 73.7,226.3 75.8,220.8 77.9,215.5 80.1,210.5 82.2,205.8 84.3,201.3 86.5,197.1 88.6,193.1 90.8,189.4 92.9,186.0 95.0,182.8 97.2,179.9 99.3,177.2 101.4,174.9 103.6,172.7 105.7,170.8 107.8,169.2 110.0,167.9 112.1,166.8 114.2,165.9 116.4,165.4 118.5,165.1 120.7,165.0 122.8,165.2 124.9,165.7 127.1,166.4 129.2,167.4 131.3,168.7 133.5,170.2 135.6,172.0 137.7,174.0 139.9,176.3 142.0,178.8 144.1,181.7 146.3,184.7 148.4,188.1 150.6,191.7 152.7,195.5 154.8,199.6 157.0,204.0 159.1,208.7 161.2,213.6 163.4,218.7 165.5,224.2" class="curve"/><circle cx="120" cy="270" r="78.26237921249265" class="circ"/><circle cx="85" cy="200" r="3" class="pt"/><text x="93" y="218" class="label">A</text><circle cx="155" cy="200" r="3" class="pt"/><text x="150" y="218" class="label">B</text><circle cx="50" cy="305" r="3" class="pt"/><text x="58" y="300" class="label">C</text><circle cx="120" cy="270" r="3" class="pt"/><text x="128" y="288" class="label">D</text>
+</svg>

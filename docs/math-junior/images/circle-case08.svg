@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 240" width="280" height="240">
+<style>
+  .axis { stroke: #999; stroke-width: 1; }
+  .curve { stroke: #e74c3c; stroke-width: 2; fill: none; }
+  .line { stroke: #3498db; stroke-width: 1.5; fill: none; }
+  .dash { stroke: #999; stroke-width: 1; stroke-dasharray: 4 3; fill: none; }
+  .pt { fill: #2c3e50; }
+  .label { font-family: serif; font-size: 13px; fill: #2c3e50; }
+  .angle { stroke: #27ae60; stroke-width: 1; fill: rgba(39,174,96,0.1); }
+  .right { stroke: #27ae60; stroke-width: 1; fill: none; }
+  .shade { fill: rgba(52,152,219,0.1); stroke: #3498db; stroke-width: 1; }
+  .circ { stroke: #8e44ad; stroke-width: 1.5; fill: none; }
+  .tangent { stroke: #e67e22; stroke-width: 1.5; fill: none; }
+  .radius { stroke: #e74c3c; stroke-width: 1; stroke-dasharray: 5 3; fill: none; }
+</style>
+<line x1="25" y1="200" x2="225" y2="200" class="axis"/><line x1="50" y1="225" x2="50" y2="75" class="axis"/><circle cx="125" cy="200" r="75" class="circ"/><line x1="37.5" y1="125" x2="212.5" y2="125" class="tangent"/><circle cx="50" cy="125" r="3" class="pt"/><text x="58" y="120" class="label">(0,3)</text><circle cx="125" cy="200" r="3" class="pt"/><text x="133" y="218" class="label">A(3,0)</text><circle cx="125" cy="125" r="3" class="pt"/><text x="133" y="120" class="label">E</text>
+</svg>

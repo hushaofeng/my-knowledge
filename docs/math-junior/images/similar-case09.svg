@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260" width="300" height="260">
+<style>
+  .axis { stroke: #999; stroke-width: 1; }
+  .curve { stroke: #e74c3c; stroke-width: 2; fill: none; }
+  .line { stroke: #3498db; stroke-width: 1.5; fill: none; }
+  .dash { stroke: #999; stroke-width: 1; stroke-dasharray: 4 3; fill: none; }
+  .pt { fill: #2c3e50; }
+  .label { font-family: serif; font-size: 13px; fill: #2c3e50; }
+  .angle { stroke: #27ae60; stroke-width: 1; fill: rgba(39,174,96,0.1); }
+  .right { stroke: #27ae60; stroke-width: 1; fill: none; }
+  .shade { fill: rgba(52,152,219,0.1); stroke: #3498db; stroke-width: 1; }
+  .sim { fill: rgba(231,76,60,0.08); stroke: #e74c3c; stroke-width: 1; }
+  .circ { stroke: #8e44ad; stroke-width: 1.5; fill: none; }
+  .parallel { stroke: #e67e22; stroke-width: 1.5; fill: none; }
+</style>
+<polygon points="30,200 270,200 30,40" class="shade"/><line x1="174.0" y1="136.0" x2="78.0" y2="200" class="line"/><polygon points="30,200 174.0,136.0 78.0,200" style="fill:rgba(231,76,60,0.1);stroke:#e74c3c;stroke-width:1"/><polyline points="40,200 40,190 30,190" class="right"/><circle cx="30" cy="200" r="3" class="pt"/><text x="12" y="205" class="label">A</text><circle cx="270" cy="200" r="3" class="pt"/><text x="278" y="205" class="label">B</text><circle cx="30" cy="40" r="3" class="pt"/><text x="12" y="35" class="label">C</text><circle cx="174.0" cy="136.0" r="3" class="pt"/><text x="182.0" y="131.0" class="label">D</text><circle cx="78.0" cy="200" r="3" class="pt"/><text x="86.0" y="218" class="label">E</text>
+</svg>

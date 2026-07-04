@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260" width="300" height="260">
+<style>
+  .axis { stroke: #999; stroke-width: 1; }
+  .curve { stroke: #e74c3c; stroke-width: 2; fill: none; }
+  .line { stroke: #3498db; stroke-width: 1.5; fill: none; }
+  .dash { stroke: #999; stroke-width: 1; stroke-dasharray: 4 3; fill: none; }
+  .pt { fill: #2c3e50; }
+  .label { font-family: serif; font-size: 13px; fill: #2c3e50; }
+  .angle { stroke: #27ae60; stroke-width: 1; fill: rgba(39,174,96,0.1); }
+  .right { stroke: #27ae60; stroke-width: 1; fill: none; }
+  .shade { fill: rgba(52,152,219,0.1); stroke: #3498db; stroke-width: 1; }
+  .circ { stroke: #8e44ad; stroke-width: 1.5; fill: none; }
+  .tangent { stroke: #e67e22; stroke-width: 1.5; fill: none; }
+  .radius { stroke: #e74c3c; stroke-width: 1; stroke-dasharray: 5 3; fill: none; }
+</style>
+<circle cx="150" cy="150" r="70" class="circ"/><line x1="150" y1="30" x2="109.16666666666666" y2="206.85630034471896" class="tangent"/><line x1="150" y1="30" x2="190.83333333333334" y2="206.85630034471896" class="tangent"/><line x1="150" y1="150" x2="109.16666666666666" y2="206.85630034471896" class="radius"/><line x1="150" y1="150" x2="190.83333333333334" y2="206.85630034471896" class="radius"/><line x1="150" y1="150" x2="150" y2="30" class="dash"/><path d="M 143.25102285327833,59.230999084414286 A 30,30 0 0 1 156.74897714672167,59.230999084414286" class="angle"/><circle cx="150" cy="150" r="3" class="pt"/><text x="158" y="168" class="label">O</text><circle cx="109.16666666666666" cy="206.85630034471896" r="3" class="pt"/><text x="117.16666666666666" y="211.85630034471896" class="label">A</text><circle cx="190.83333333333334" cy="206.85630034471896" r="3" class="pt"/><text x="172.83333333333334" y="211.85630034471896" class="label">B</text><circle cx="150" cy="30" r="3" class="pt"/><text x="158" y="25" class="label">P</text>
+</svg>

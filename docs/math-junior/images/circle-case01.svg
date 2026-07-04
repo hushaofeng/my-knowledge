@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260" width="300" height="260">
+<style>
+  .axis { stroke: #999; stroke-width: 1; }
+  .curve { stroke: #e74c3c; stroke-width: 2; fill: none; }
+  .line { stroke: #3498db; stroke-width: 1.5; fill: none; }
+  .dash { stroke: #999; stroke-width: 1; stroke-dasharray: 4 3; fill: none; }
+  .pt { fill: #2c3e50; }
+  .label { font-family: serif; font-size: 13px; fill: #2c3e50; }
+  .angle { stroke: #27ae60; stroke-width: 1; fill: rgba(39,174,96,0.1); }
+  .right { stroke: #27ae60; stroke-width: 1; fill: none; }
+  .shade { fill: rgba(52,152,219,0.1); stroke: #3498db; stroke-width: 1; }
+  .circ { stroke: #8e44ad; stroke-width: 1.5; fill: none; }
+  .tangent { stroke: #e67e22; stroke-width: 1.5; fill: none; }
+  .radius { stroke: #e74c3c; stroke-width: 1; stroke-dasharray: 5 3; fill: none; }
+</style>
+<circle cx="150" cy="140" r="80" class="circ"/><line x1="70" y1="140" x2="230" y2="140" class="line"/><line x1="70" y1="140" x2="150.0" y2="60.0" class="line"/><line x1="230" y1="140" x2="150.0" y2="60.0" class="line"/><circle cx="150" cy="140" r="3" class="pt"/><text x="158" y="158" class="label">O</text><path d="M 180,140 A 30,30 0 0 0 169.28362829059617,117.01866670643066" class="angle"/><path d="M 95,140 A 25,25 0 0 0 52.32233047033631,157.6776695296637" class="angle"/><circle cx="70" cy="140" r="3" class="pt"/><text x="52" y="145" class="label">A</text><circle cx="230" cy="140" r="3" class="pt"/><text x="238" y="145" class="label">B</text><circle cx="150.0" cy="60.0" r="3" class="pt"/><text x="158.0" y="55.0" class="label">C</text>
+</svg>
