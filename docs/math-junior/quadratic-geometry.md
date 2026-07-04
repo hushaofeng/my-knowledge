@@ -17,7 +17,7 @@ tags:
 
 ## 案例 1：求二次函数解析式 ⭐
 
-![案例1示意图](/math-junior/images/quadratic-case01.svg)
+![案例1示意图](./images/quadratic-case01.svg)
 
 
 **【题目】** 已知抛物线经过点 A(0, 3)、B(1, 0)、C(3, 0)，求抛物线解析式。
@@ -44,7 +44,7 @@ tags:
 
 ## 案例 2：利用交点式求解析式 ⭐
 
-![案例2示意图](/math-junior/images/quadratic-case02.svg)
+![案例2示意图](./images/quadratic-case02.svg)
 
 
 **【题目】** 抛物线与 x 轴交于点 (&minus;1, 0) 和 (3, 0)，且过点 (1, 4)，求解析式。
@@ -67,7 +67,7 @@ tags:
 
 ## 案例 3：顶点式与图象变换 ⭐⭐
 
-![案例3示意图](/math-junior/images/quadratic-case03.svg)
+![案例3示意图](./images/quadratic-case03.svg)
 
 
 **【题目】** 将抛物线 y = x&sup2; 先向右平移 2 个单位，再向上平移 1 个单位，求新的抛物线解析式及顶点坐标。
@@ -88,7 +88,7 @@ tags:
 
 ## 案例 4：二次函数与不等式 ⭐⭐
 
-![案例4示意图](/math-junior/images/quadratic-case04.svg)
+![案例4示意图](./images/quadratic-case04.svg)
 
 
 **【题目】** 抛物线 y = &minus;x&sup2; + 2x + 3，求：
@@ -115,7 +115,7 @@ tags:
 
 ## 案例 5：面积最值问题 ⭐⭐
 
-![案例5示意图](/math-junior/images/quadratic-case05.svg)
+![案例5示意图](./images/quadratic-case05.svg)
 
 
 **【题目】** 抛物线 y = &minus;x&sup2; + 4x 与 x 轴围成的封闭区域内，求内接矩形面积的最大值（矩形一边在 x 轴上，对边在抛物线上）。
@@ -152,7 +152,7 @@ S = 8 &times; 2&radic;3/3 &minus; 2 &times; 8&times;3&radic;3/27 = 16&radic;3/3 
 
 ## 案例 6：二次函数与一次函数交点 ⭐⭐⭐
 
-![案例6示意图](/math-junior/images/quadratic-case06.svg)
+![案例6示意图](./images/quadratic-case06.svg)
 
 
 **【题目】** 抛物线 y = x&sup2; &minus; 2x &minus; 3 与直线 y = x + 1 的交点为 A、B，求 &triangle;AOB 的面积（O 为原点）。
@@ -177,7 +177,7 @@ S&triangle;AOB = 1/2 &times; 1 &times; 5 = 5/2
 
 ## 案例 7：动点与二次函数最值 ⭐⭐⭐
 
-![案例7示意图](/math-junior/images/quadratic-case07.svg)
+![案例7示意图](./images/quadratic-case07.svg)
 
 
 **【题目】** 如图，抛物线 y = &minus;1/2 x&sup2; + 3/2 x + 2 与 x 轴交于 A、B 两点（A 在 B 左侧），与 y 轴交于点 C。点 P 是抛物线上的动点，当 &triangle;PAC 面积最大时，求点 P 的坐标。
@@ -272,7 +272,7 @@ x = 4 时 P(4, 0) = B 点，&triangle;退化为线段，排除。
 
 ## 案例 8：二次函数与平行四边形存在性 ⭐⭐⭐⭐
 
-![案例8示意图](/math-junior/images/quadratic-case08.svg)
+![案例8示意图](./images/quadratic-case08.svg)
 
 
 **【题目】** 抛物线 y = &minus;x&sup2; + 2x + 3 与 x 轴交于 A、B，与 y 轴交于 C。抛物线上是否存在点 P，使 A、B、C、P 为平行四边形的四个顶点？若存在，求 P 坐标。
@@ -311,7 +311,7 @@ P(2 &times; 3/2 &minus; (&minus;1), 2 &times; 3/2 &minus; 0) = (4, 3)。
 
 ## 案例 9：二次函数背景下的线段最值 ⭐⭐⭐⭐
 
-![案例9示意图](/math-junior/images/quadratic-case09.svg)
+![案例9示意图](./images/quadratic-case09.svg)
 
 
 **【题目】** 抛物线 y = x&sup2; &minus; 2x &minus; 3 与 x 轴交于 A、B（A 左 B 右），与 y 轴交于 C，顶点为 D。点 M 在抛物线的对称轴上，求 MC + MD 的最小值。
@@ -354,7 +354,7 @@ x = 1 时 y = &minus;4，M(1, &minus;4) = D。
 
 ## 案例 10：二次函数综合压轴 ⭐⭐⭐⭐
 
-![案例10示意图](/math-junior/images/quadratic-case10.svg)
+![案例10示意图](./images/quadratic-case10.svg)
 
 
 **【题目】** （广州中考风格压轴题）抛物线 y = ax&sup2; + bx + c 经过 A(&minus;1, 0)、B(3, 0)、C(0, 3) 三点。

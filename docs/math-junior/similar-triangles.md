@@ -17,7 +17,7 @@ tags:
 
 ## 案例 1：平行线截相似 ⭐
 
-![案例1示意图](/math-junior/images/similar-case01.svg)
+![案例1示意图](./images/similar-case01.svg)
 
 
 **【题目】** 如图，在 &triangle;ABC 中，DE &parallel; BC，AD = 2，DB = 3，DE = 4，求 BC 的长。
@@ -38,7 +38,7 @@ DE/BC = 2/5，4/BC = 2/5，BC = 10。
 
 ## 案例 2：相似比与面积比 ⭐
 
-![案例2示意图](/math-junior/images/similar-case02.svg)
+![案例2示意图](./images/similar-case02.svg)
 
 
 **【题目】** &triangle;ABC &sim; &triangle;DEF，相似比为 2:3，&triangle;ABC 的面积为 16，求 &triangle;DEF 的面积。
@@ -57,7 +57,7 @@ S&triangle;DEF = 16 &times; 9/4 = 36。
 
 ## 案例 3：AA 判定相似 ⭐⭐
 
-![案例3示意图](/math-junior/images/similar-case03.svg)
+![案例3示意图](./images/similar-case03.svg)
 
 
 **【题目】** 在 &triangle;ABC 中，&angle;A = 50&deg;，&angle;B = 70&deg;。在 &triangle;DEF 中，&angle;D = 50&deg;，&angle;E = 70&deg;。&triangle;ABC 与 &triangle;DEF 是否相似？若相似，写出对应关系。
@@ -82,7 +82,7 @@ S&triangle;DEF = 16 &times; 9/4 = 36。
 
 ## 案例 4：SAS 判定相似 ⭐⭐
 
-![案例4示意图](/math-junior/images/similar-case04.svg)
+![案例4示意图](./images/similar-case04.svg)
 
 
 **【题目】** 在 &triangle;ABC 和 &triangle;DEF 中，&angle;A = &angle;D = 40&deg;，AB = 6，AC = 9，DE = 4，DF = 6。判断两三角形是否相似。
@@ -103,7 +103,7 @@ S&triangle;DEF = 16 &times; 9/4 = 36。
 
 ## 案例 5：射影定理 ⭐⭐
 
-![案例5示意图](/math-junior/images/similar-case05.svg)
+![案例5示意图](./images/similar-case05.svg)
 
 
 **【题目】** 在 Rt&triangle;ABC 中，&angle;ACB = 90&deg;，CD &perp; AB 于 D，AC = 6，BC = 8，求 CD 和 AD 的长。
@@ -128,7 +128,7 @@ CD = 6 &times; 8/10 = 24/5。
 
 ## 案例 6：相似与比例线段 ⭐⭐⭐
 
-![案例6示意图](/math-junior/images/similar-case06.svg)
+![案例6示意图](./images/similar-case06.svg)
 
 
 **【题目】** 如图，在 &triangle;ABC 中，D 是 BC 上的点，BD = 2，DC = 3，E 是 AC 上的点，AE = 1，EC = 4。连接 AD、BE 交于点 P。求 AP:PD 的值。
@@ -159,7 +159,7 @@ AP/PD = AE/EF = 1/2。
 
 ## 案例 7：相似与圆综合 ⭐⭐⭐
 
-![案例7示意图](/math-junior/images/similar-case07.svg)
+![案例7示意图](./images/similar-case07.svg)
 
 
 **【题目】** 如图，AB 是 &odot;O 的弦，点 C 在 &odot;O 上且在 AB 异侧，CD &perp; AB 于 D，AB = 8，CD = 6，&odot;O 半径为 5。求点 C 到弦 AB 的距离是否可能为 6？若可能，求 AD 的长。
@@ -250,7 +250,7 @@ C(&minus;4, 6) 时 D(&minus;4, 0)，AD = |&minus;4 &minus; (&minus;4)| = 0。
 
 ## 案例 8：相似三角形与动点 ⭐⭐⭐⭐
 
-![案例8示意图](/math-junior/images/similar-case08.svg)
+![案例8示意图](./images/similar-case08.svg)
 
 
 **【题目】** 在矩形 ABCD 中，AB = 6，BC = 8。点 P 从 A 出发沿 AD 方向运动，速度为 1 单位/秒；点 Q 从 B 出发沿 BC 方向运动，速度为 2 单位/秒。同时出发，何时 &triangle;ABP 与 &triangle;QCB 相似？
@@ -411,7 +411,7 @@ AB/CB = AP/BQ
 
 ## 案例 9：相似与面积综合 ⭐⭐⭐⭐
 
-![案例9示意图](/math-junior/images/similar-case09.svg)
+![案例9示意图](./images/similar-case09.svg)
 
 
 **【题目】** 在 &triangle;ABC 中，&angle;BAC = 90&deg;，AB = 4，AC = 3。点 D 在 BC 上，BD = 2，DC = 3。过 D 作 DE &perp; BC 交 AB 于 E，求 &triangle;BDE 的面积。
@@ -438,7 +438,7 @@ S&triangle;BDE = S&triangle;BAC &times; (2/5)&sup2; = (1/2 &times; 4 &times; 3) 
 
 ## 案例 10：相似三角形压轴综合 ⭐⭐⭐⭐
 
-![案例10示意图](/math-junior/images/similar-case10.svg)
+![案例10示意图](./images/similar-case10.svg)
 
 
 **【题目】** （广州中考风格压轴）在 &triangle;ABC 中，&angle;ACB = 90&deg;，AC = 3，BC = 4。点 D 在 AB 上，AD = x（0 &lt; x &lt; 5）。
