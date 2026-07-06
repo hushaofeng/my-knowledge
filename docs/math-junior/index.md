@@ -30,6 +30,29 @@ tags:
 2. **圆** — 几何大题核心，切线定理+圆周角定理（8-10 分）— [真题案例与解析](./circle-problems.md)
 3. **相似三角形** — 几何综合题必备工具（6-8 分）— [真题案例与解析](./similar-triangles.md)
 
+### 其他重难点真题案例
+
+| 板块 | 等级 | 链接 |
+|------|------|------|
+| 全等三角形 | 🔴🔴 | [真题案例与解析](./congruent-triangles.md) |
+| 一次函数 | 🔴🔴 | [真题案例与解析](./linear-function.md) |
+| 锐角三角函数 | 🔴 | [真题案例与解析](./trigonometry.md) |
+| 一元一次方程应用题 | 🔴 | [真题案例与解析](./equations-applications.md) |
+| 特殊平行四边形 | 🔴 | [真题案例与解析](./special-quadrilaterals.md) |
+| 勾股定理 | 🔴 | [真题案例与解析](./pythagorean-theorem.md) |
+
+## 🎮 图形化理解工具
+
+> 交互式可视化，让抽象数学变成"看得见、摸得着"的体验。
+
+| 工具 | 解决的痛点 | 链接 |
+|------|-----------|------|
+| 🎯 动态二次函数探索器 | 记不住 a、b、c 对图像的影响 | [打开](/my-knowledge/math-junior/quadratic-explorer.html) |
+| 🧩 勾股定理拼图证明 | 几何证明抽象缺乏直观 | [打开](/my-knowledge/math-junior/pythagorean-proof.html) |
+| 🪙 投硬币模拟器 | 概率概念虚无缥缈 | [打开](/my-knowledge/math-junior/coin-simulator.html) |
+
+详见 [图形化理解工具总览](./visual-tools.md)
+
 ### 高频易错点
 
 | 易错点 | 正确理解 |

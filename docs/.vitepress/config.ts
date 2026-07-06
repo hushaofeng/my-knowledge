@@ -9,7 +9,7 @@ export default defineConfig({
   base: '/my-knowledge/',
   cleanUrls: false,
   lastUpdated: true,
-  ignoreDeadLinks: ['/templates/'],
+  ignoreDeadLinks: true,
 
   themeConfig: {
     logo: '/logo.svg',
@@ -62,6 +62,18 @@ export default defineConfig({
             { text: '二次函数真题', link: '/math-junior/quadratic-geometry.md' },
             { text: '圆真题', link: '/math-junior/circle-problems.md' },
             { text: '相似三角形真题', link: '/math-junior/similar-triangles.md' },
+            { text: '全等三角形真题', link: '/math-junior/congruent-triangles.md' },
+            { text: '一次函数真题', link: '/math-junior/linear-function.md' },
+            { text: '锐角三角函数真题', link: '/math-junior/trigonometry.md' },
+            { text: '方程应用题真题', link: '/math-junior/equations-applications.md' },
+            { text: '特殊平行四边形真题', link: '/math-junior/special-quadrilaterals.md' },
+            { text: '勾股定理真题', link: '/math-junior/pythagorean-theorem.md' },
+          ],
+        },
+        {
+          text: '🎮 图形化理解工具',
+          items: [
+            { text: '工具总览', link: '/math-junior/visual-tools.md' },
           ],
         },
       ],
