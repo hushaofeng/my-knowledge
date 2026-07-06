@@ -47,9 +47,9 @@ tags:
 
 | 工具 | 解决的痛点 | 链接 |
 |------|-----------|------|
-| 🎯 动态二次函数探索器 | 记不住 a、b、c 对图像的影响 | [在线打开](https://peak2010.gitee.io/my-knowledge/math-junior/quadratic-explorer.html) |
-| 🧩 勾股定理拼图证明 | 几何证明抽象缺乏直观 | [在线打开](https://peak2010.gitee.io/my-knowledge/math-junior/pythagorean-proof.html) |
-| 🪙 投硬币模拟器 | 概率概念虚无缥缈 | [在线打开](https://peak2010.gitee.io/my-knowledge/math-junior/coin-simulator.html) |
+| 🎯 动态二次函数探索器 | 记不住 a、b、c 对图像的影响 | [打开](./visual-tools.md) |
+| 🧩 勾股定理拼图证明 | 几何证明抽象缺乏直观 | [打开](./visual-tools.md) |
+| 🪙 投硬币模拟器 | 概率概念虚无缥缈 | [打开](./visual-tools.md) |
 
 详见 [图形化理解工具总览](./visual-tools.md)
 
