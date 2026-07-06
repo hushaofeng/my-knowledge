@@ -13,7 +13,7 @@
 
 **教学话术**：*"我不让学生背'左加右减'，让他们自己拖滑块，5分钟自己总结出规律。"*
 
-👉 [打开探索器](/my-knowledge/math-junior/quadratic-explorer.html)
+👉 [打开探索器](https://gitee.com/peak2010/my-knowledge/raw/main/docs/public/math-junior/quadratic-explorer.html) （[VitePress 站点](/my-knowledge/math-junior/quadratic-explorer.html)）
 
 ---
 
@@ -25,7 +25,7 @@
 
 **教学话术**：*"我用动画把'数'和'形'焊在一起，学生再也忘不了 a²+b²=c²。"*
 
-👉 [打开拼图证明](/my-knowledge/math-junior/pythagorean-proof.html)
+👉 [打开拼图证明](https://gitee.com/peak2010/my-knowledge/raw/main/docs/public/math-junior/pythagorean-proof.html) （[VitePress 站点](/my-knowledge/math-junior/pythagorean-proof.html)）
 
 ---
 
@@ -37,7 +37,7 @@
 
 **教学话术**：*"一节课让学生点100次'投掷'，比讲100道概率题都管用。"*
 
-👉 [打开模拟器](/my-knowledge/math-junior/coin-simulator.html)
+👉 [打开模拟器](https://gitee.com/peak2010/my-knowledge/raw/main/docs/public/math-junior/coin-simulator.html) （[VitePress 站点](/my-knowledge/math-junior/coin-simulator.html)）
 
 ---
 
