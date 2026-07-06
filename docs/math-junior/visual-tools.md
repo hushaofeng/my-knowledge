@@ -13,7 +13,9 @@
 
 **教学话术**：*"我不让学生背'左加右减'，让他们自己拖滑块，5分钟自己总结出规律。"*
 
-👉 [打开探索器](https://gitee.com/peak2010/my-knowledge/raw/main/docs/public/math-junior/quadratic-explorer.html) （[VitePress 站点](/my-knowledge/math-junior/quadratic-explorer.html)）
+👉 [在线打开探索器](https://peak2010.gitee.io/my-knowledge/math-junior/quadratic-explorer.html)
+
+📥 离线使用：下载 [quadratic-explorer.html](https://gitee.com/peak2010/my-knowledge/raw/main/docs/public/math-junior/quadratic-explorer.html)，双击即可在浏览器中打开
 
 ---
 
@@ -25,7 +27,9 @@
 
 **教学话术**：*"我用动画把'数'和'形'焊在一起，学生再也忘不了 a²+b²=c²。"*
 
-👉 [打开拼图证明](https://gitee.com/peak2010/my-knowledge/raw/main/docs/public/math-junior/pythagorean-proof.html) （[VitePress 站点](/my-knowledge/math-junior/pythagorean-proof.html)）
+👉 [在线打开拼图证明](https://peak2010.gitee.io/my-knowledge/math-junior/pythagorean-proof.html)
+
+📥 离线使用：下载 [pythagorean-proof.html](https://gitee.com/peak2010/my-knowledge/raw/main/docs/public/math-junior/pythagorean-proof.html)，双击即可在浏览器中打开
 
 ---
 
@@ -37,7 +41,9 @@
 
 **教学话术**：*"一节课让学生点100次'投掷'，比讲100道概率题都管用。"*
 
-👉 [打开模拟器](https://gitee.com/peak2010/my-knowledge/raw/main/docs/public/math-junior/coin-simulator.html) （[VitePress 站点](/my-knowledge/math-junior/coin-simulator.html)）
+👉 [在线打开模拟器](https://peak2010.gitee.io/my-knowledge/math-junior/coin-simulator.html)
+
+📥 离线使用：下载 [coin-simulator.html](https://gitee.com/peak2010/my-knowledge/raw/main/docs/public/math-junior/coin-simulator.html)，双击即可在浏览器中打开
 
 ---
 
@@ -49,4 +55,4 @@
 | 勾股拼图证明 | 几何证明缺乏直观 | 动画分步演示两种拼法 | 数形结合 |
 | 投硬币模拟器 | 概率概念虚无缥缈 | 随机模拟 + 折线图 | 体验大数定律 |
 
-> 所有工具纯前端实现，无需安装，手机浏览器也可使用。
+> 所有工具纯前端实现，无需安装，手机浏览器也可使用。下载 HTML 文件后双击即可离线运行。
