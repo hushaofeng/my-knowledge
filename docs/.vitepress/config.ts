@@ -84,6 +84,11 @@ export default defineConfig({
           items: [
             { text: '概览', link: '/teacher-exam/' },
             { text: '综合素质（中学）', link: '/teacher-exam/comprehensive-quality/' },
+            { text: ' ├ 第一章 职业理念', link: '/teacher-exam/comprehensive-quality/chapter1.md' },
+            { text: ' ├ 第二章 法律法规', link: '/teacher-exam/comprehensive-quality/chapter2.md' },
+            { text: ' ├ 第三章 职业道德', link: '/teacher-exam/comprehensive-quality/chapter3.md' },
+            { text: ' ├ 第四章 文化素养', link: '/teacher-exam/comprehensive-quality/chapter4.md' },
+            { text: ' └ 第五章 基本能力', link: '/teacher-exam/comprehensive-quality/chapter5.md' },
             { text: '教育知识与能力', link: '/teacher-exam/education-knowledge/' },
             { text: '数学学科知识与教学能力', link: '/teacher-exam/math-subject/' },
           ],
