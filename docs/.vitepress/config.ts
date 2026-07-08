@@ -17,6 +17,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: 'AI 总结', link: '/ai-summaries/' },
       { text: '初中数学', link: '/math-junior/' },
+      { text: '教师资格', link: '/teacher-exam/' },
       { text: '速查表', link: '/cheatsheets/' },
       { text: '项目复盘', link: '/projects/' },
       { text: 'Gitee', link: 'https://gitee.com/peak2010/my-knowledge' },
@@ -74,6 +75,17 @@ export default defineConfig({
           text: '🎮 图形化理解工具',
           items: [
             { text: '工具总览', link: '/math-junior/visual-tools.md' },
+          ],
+        },
+      ],
+      '/teacher-exam/': [
+        {
+          text: '教师资格考试备考',
+          items: [
+            { text: '概览', link: '/teacher-exam/' },
+            { text: '综合素质（中学）', link: '/teacher-exam/comprehensive-quality/' },
+            { text: '教育知识与能力', link: '/teacher-exam/education-knowledge/' },
+            { text: '数学学科知识与教学能力', link: '/teacher-exam/math-subject/' },
           ],
         },
       ],

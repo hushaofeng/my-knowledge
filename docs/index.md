@@ -34,6 +34,10 @@ features:
     title: 图形化理解工具
     details: 动态二次函数探索器、勾股定理拼图证明、投硬币模拟器——交互式可视化，让抽象数学看得见摸得着。
     link: /math-junior/visual-tools.md
+  - icon: 🎓
+    title: 教师资格考试备考
+    details: 综合素质、教育知识与能力、数学学科知识与教学能力——三科章节重点+口诀+答题模板。
+    link: /teacher-exam/
   - icon: 🔍
     title: 全文搜索
     details: VitePress 内置本地搜索，按关键词快速定位内容。
@@ -41,7 +45,7 @@ features:
 
 ## 最近更新
 
-- [🎮 初中数学图形化理解工具](/math-junior/visual-tools.md) — 交互式可视化，拖滑块学函数，点按钮学概率 — 2026-07-04
+- [🎓 教师资格考试备考](/teacher-exam/) — 三科完整知识体系、重点标注、口诀记忆、答题模板 — 2026-07-06
 - [初中数学重难点真题案例](/math-junior/) — 全等三角形、一次函数、勾股定理等6大板块 — 2026-07-04
 - [Hermes Agent 原理与使用建议](/ai-summaries/hermes-agent-guide.md) — 2026-07-03
 - [QQ 邮箱自动化：Playwright 登录与未读邮件抓取](/ai-summaries/qq-mail-automation.md) — 2026-05-26
