@@ -16,6 +16,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: 'AI 总结', link: '/ai-summaries/' },
+      { text: 'AI 编程', link: '/ai-coding/' },
       { text: '初中数学', link: '/math-junior/' },
       { text: '教师资格', link: '/teacher-exam/' },
       { text: '速查表', link: '/cheatsheets/' },
@@ -50,6 +51,17 @@ export default defineConfig({
         {
           text: '模板',
           items: [{ text: '文章模板', link: '/templates/article-template.md' }],
+        },
+      ],
+      '/ai-coding/': [
+        {
+          text: '团队 AI 编程实践指南',
+          items: [
+            { text: '概览', link: '/ai-coding/' },
+            { text: '范式与规范', link: '/ai-coding/paradigm.md' },
+            { text: '团队规范', link: '/ai-coding/team-spec.md' },
+            { text: '扩展应用', link: '/ai-coding/extended-use.md' },
+          ],
         },
       ],
       '/math-junior/': [

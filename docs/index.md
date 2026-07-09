@@ -38,6 +38,10 @@ features:
     title: 教师资格考试备考
     details: 综合素质、教育知识与能力、数学学科知识与教学能力——三科章节重点+口诀+答题模板。
     link: /teacher-exam/
+  - icon: 🤖
+    title: 团队 AI 编程实践指南
+    details: AI 编程范式与规范、不同团队规模的协作规范、AI 编程全生命周期扩展应用。
+    link: /ai-coding/
   - icon: 🔍
     title: 全文搜索
     details: VitePress 内置本地搜索，按关键词快速定位内容。
