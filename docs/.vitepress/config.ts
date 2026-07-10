@@ -1,7 +1,5 @@
 import { defineConfig } from 'vitepress'
 
-// Gitee Pages: https://<user>.gitee.io/my-knowledge/
-// 若仓库名不同，请修改 base
 export default defineConfig({
   title: 'My Knowledge',
   description: 'AI 整理的知识与经验总结',
@@ -15,108 +13,100 @@ export default defineConfig({
     logo: '/logo.svg',
     nav: [
       { text: '首页', link: '/' },
-      { text: 'AI 总结', link: '/ai-summaries/' },
-      { text: 'AI 编程', link: '/ai-coding/' },
-      { text: '初中数学', link: '/math-junior/' },
-      { text: '教师资格', link: '/teacher-exam/' },
-      { text: '速查表', link: '/cheatsheets/' },
-      { text: '项目复盘', link: '/projects/' },
+      { text: '工作', link: '/work/' },
+      { text: '学习', link: '/study/' },
       { text: 'GitHub', link: 'https://github.com/hushaofeng/my-knowledge' },
     ],
 
     sidebar: {
-      '/ai-summaries/': [
+      '/work/ai-coding/': [
         {
-          text: 'AI 经验总结',
+          text: 'AI 编程实践指南',
           items: [
-            { text: '概览', link: '/ai-summaries/' },
-            { text: 'QQ 邮箱自动化', link: '/ai-summaries/qq-mail-automation.md' },
-            { text: 'Hermes Agent 原理与使用建议', link: '/ai-summaries/hermes-agent-guide.md' },
+            { text: '概览', link: '/work/ai-coding/' },
+            { text: '范式与规范', link: '/work/ai-coding/paradigm.md' },
+            { text: '团队规范', link: '/work/ai-coding/team-spec.md' },
+            { text: '扩展应用', link: '/work/ai-coding/extended-use.md' },
           ],
         },
       ],
-      '/cheatsheets/': [
+      '/work/ai-tools/': [
         {
-          text: '速查表',
-          items: [{ text: '概览', link: '/cheatsheets/' }],
-        },
-      ],
-      '/projects/': [
-        {
-          text: '项目复盘',
-          items: [{ text: '概览', link: '/projects/' }],
-        },
-      ],
-      '/templates/': [
-        {
-          text: '模板',
-          items: [{ text: '文章模板', link: '/templates/article-template.md' }],
-        },
-      ],
-      '/ai-coding/': [
-        {
-          text: '团队 AI 编程实践指南',
+          text: 'AI 工具使用',
           items: [
-            { text: '概览', link: '/ai-coding/' },
-            { text: '范式与规范', link: '/ai-coding/paradigm.md' },
-            { text: '团队规范', link: '/ai-coding/team-spec.md' },
-            { text: '扩展应用', link: '/ai-coding/extended-use.md' },
+            { text: '概览', link: '/work/ai-tools/' },
+            { text: 'Hermes Agent 原理与使用', link: '/work/ai-tools/hermes-agent-guide.md' },
+            { text: 'QQ 邮箱自动化', link: '/work/ai-tools/qq-mail-automation.md' },
           ],
         },
       ],
-      '/math-junior/': [
+      '/study/junior-math/': [
         {
           text: '初中数学知识体系',
           items: [
-            { text: '概览', link: '/math-junior/' },
-            { text: '七年级（初一）', link: '/math-junior/grade7.md' },
-            { text: '八年级（初二）', link: '/math-junior/grade8.md' },
-            { text: '九年级（初三）', link: '/math-junior/grade9.md' },
-            { text: '二次函数真题', link: '/math-junior/quadratic-geometry.md' },
-            { text: '圆真题', link: '/math-junior/circle-problems.md' },
-            { text: '相似三角形真题', link: '/math-junior/similar-triangles.md' },
-            { text: '全等三角形真题', link: '/math-junior/congruent-triangles.md' },
-            { text: '一次函数真题', link: '/math-junior/linear-function.md' },
-            { text: '锐角三角函数真题', link: '/math-junior/trigonometry.md' },
-            { text: '方程应用题真题', link: '/math-junior/equations-applications.md' },
-            { text: '特殊平行四边形真题', link: '/math-junior/special-quadrilaterals.md' },
-            { text: '勾股定理真题', link: '/math-junior/pythagorean-theorem.md' },
+            { text: '概览', link: '/study/junior-math/' },
+            { text: '七年级（初一）', link: '/study/junior-math/grade7.md' },
+            { text: '八年级（初二）', link: '/study/junior-math/grade8.md' },
+            { text: '九年级（初三）', link: '/study/junior-math/grade9.md' },
+            { text: '🎮 图形化理解工具', link: '/study/junior-math/visual-tools.md' },
           ],
         },
         {
-          text: '🎮 图形化理解工具',
+          text: '中考真题案例',
           items: [
-            { text: '工具总览', link: '/math-junior/visual-tools.md' },
+            { text: '真题总览', link: '/study/junior-math/exam/' },
+            { text: '二次函数', link: '/study/junior-math/exam/quadratic-geometry.md' },
+            { text: '圆', link: '/study/junior-math/exam/circle-problems.md' },
+            { text: '相似三角形', link: '/study/junior-math/exam/similar-triangles.md' },
+            { text: '全等三角形', link: '/study/junior-math/exam/congruent-triangles.md' },
+            { text: '一次函数', link: '/study/junior-math/exam/linear-function.md' },
+            { text: '锐角三角函数', link: '/study/junior-math/exam/trigonometry.md' },
+            { text: '方程应用题', link: '/study/junior-math/exam/equations-applications.md' },
+            { text: '特殊平行四边形', link: '/study/junior-math/exam/special-quadrilaterals.md' },
+            { text: '勾股定理', link: '/study/junior-math/exam/pythagorean-theorem.md' },
           ],
         },
       ],
-      '/teacher-exam/': [
+      '/study/teacher-cert/comprehensive-quality/': [
         {
-          text: '教师资格考试备考',
+          text: '综合素质（中学）',
           items: [
-            { text: '概览', link: '/teacher-exam/' },
-            { text: '综合素质（中学）', link: '/teacher-exam/comprehensive-quality/' },
-            { text: ' ├ 第一章 职业理念', link: '/teacher-exam/comprehensive-quality/chapter1.md' },
-            { text: ' ├ 第二章 法律法规', link: '/teacher-exam/comprehensive-quality/chapter2.md' },
-            { text: ' ├ 第三章 职业道德', link: '/teacher-exam/comprehensive-quality/chapter3.md' },
-            { text: ' ├ 第四章 文化素养', link: '/teacher-exam/comprehensive-quality/chapter4.md' },
-            { text: ' └ 第五章 基本能力', link: '/teacher-exam/comprehensive-quality/chapter5.md' },
-            { text: '教育知识与能力', link: '/teacher-exam/education-knowledge/' },
-            { text: ' ├ 第一章 教育基础', link: '/teacher-exam/education-knowledge/chapter1.md' },
-            { text: ' ├ 第二章 中学课程', link: '/teacher-exam/education-knowledge/chapter2.md' },
-            { text: ' ├ 第三章 中学教学', link: '/teacher-exam/education-knowledge/chapter3.md' },
-            { text: ' ├ 第四章 学习心理', link: '/teacher-exam/education-knowledge/chapter4.md' },
-            { text: ' ├ 第五章 发展心理', link: '/teacher-exam/education-knowledge/chapter5.md' },
-            { text: ' ├ 第六章 心理辅导', link: '/teacher-exam/education-knowledge/chapter6.md' },
-            { text: ' ├ 第七章 中学德育', link: '/teacher-exam/education-knowledge/chapter7.md' },
-            { text: ' └ 第八章 班级管理', link: '/teacher-exam/education-knowledge/chapter8.md' },
-            { text: '数学学科知识与教学能力', link: '/teacher-exam/math-subject/' },
-            { text: ' ├ 第一章 大学数学', link: '/teacher-exam/math-subject/chapter1.md' },
-            { text: ' ├ 第二章 初中数学', link: '/teacher-exam/math-subject/chapter2.md' },
-            { text: ' ├ 第三章 课程知识', link: '/teacher-exam/math-subject/chapter3.md' },
-            { text: ' ├ 第四章 教学方法', link: '/teacher-exam/math-subject/chapter4.md' },
-            { text: ' ├ 第五章 教学设计', link: '/teacher-exam/math-subject/chapter5.md' },
-            { text: ' └ 第六章 案例分析', link: '/teacher-exam/math-subject/chapter6.md' },
+            { text: '概览', link: '/study/teacher-cert/comprehensive-quality/' },
+            { text: '第一章 职业理念', link: '/study/teacher-cert/comprehensive-quality/chapter1.md' },
+            { text: '第二章 法律法规', link: '/study/teacher-cert/comprehensive-quality/chapter2.md' },
+            { text: '第三章 职业道德', link: '/study/teacher-cert/comprehensive-quality/chapter3.md' },
+            { text: '第四章 文化素养', link: '/study/teacher-cert/comprehensive-quality/chapter4.md' },
+            { text: '第五章 基本能力', link: '/study/teacher-cert/comprehensive-quality/chapter5.md' },
+          ],
+        },
+      ],
+      '/study/teacher-cert/education-knowledge/': [
+        {
+          text: '教育知识与能力',
+          items: [
+            { text: '概览', link: '/study/teacher-cert/education-knowledge/' },
+            { text: '第一章 教育基础', link: '/study/teacher-cert/education-knowledge/chapter1.md' },
+            { text: '第二章 中学课程', link: '/study/teacher-cert/education-knowledge/chapter2.md' },
+            { text: '第三章 中学教学', link: '/study/teacher-cert/education-knowledge/chapter3.md' },
+            { text: '第四章 学习心理', link: '/study/teacher-cert/education-knowledge/chapter4.md' },
+            { text: '第五章 发展心理', link: '/study/teacher-cert/education-knowledge/chapter5.md' },
+            { text: '第六章 心理辅导', link: '/study/teacher-cert/education-knowledge/chapter6.md' },
+            { text: '第七章 中学德育', link: '/study/teacher-cert/education-knowledge/chapter7.md' },
+            { text: '第八章 班级管理', link: '/study/teacher-cert/education-knowledge/chapter8.md' },
+          ],
+        },
+      ],
+      '/study/teacher-cert/math-subject/': [
+        {
+          text: '数学学科知识与教学能力',
+          items: [
+            { text: '概览', link: '/study/teacher-cert/math-subject/' },
+            { text: '第一章 大学数学', link: '/study/teacher-cert/math-subject/chapter1.md' },
+            { text: '第二章 初中数学', link: '/study/teacher-cert/math-subject/chapter2.md' },
+            { text: '第三章 课程知识', link: '/study/teacher-cert/math-subject/chapter3.md' },
+            { text: '第四章 教学方法', link: '/study/teacher-cert/math-subject/chapter4.md' },
+            { text: '第五章 教学设计', link: '/study/teacher-cert/math-subject/chapter5.md' },
+            { text: '第六章 案例分析', link: '/study/teacher-cert/math-subject/chapter6.md' },
           ],
         },
       ],
