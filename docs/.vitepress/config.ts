@@ -21,7 +21,7 @@ export default defineConfig({
       { text: '教师资格', link: '/teacher-exam/' },
       { text: '速查表', link: '/cheatsheets/' },
       { text: '项目复盘', link: '/projects/' },
-      { text: 'Gitee', link: 'https://gitee.com/peak2010/my-knowledge' },
+      { text: 'GitHub', link: 'https://github.com/hushaofeng/my-knowledge' },
     ],
 
     sidebar: {
@@ -144,13 +144,13 @@ export default defineConfig({
     },
 
     footer: {
-      message: '由 AI 辅助整理，Markdown 版本管理 · 托管于 Gitee Pages',
+      message: '由 AI 辅助整理，Markdown 版本管理 · 托管于 GitHub Pages',
       copyright: 'Copyright © 2026',
     },
 
     editLink: {
-      pattern: 'https://gitee.com/peak2010/my-knowledge/edit/main/docs/:path',
-      text: '在 Gitee 上编辑',
+      pattern: 'https://github.com/hushaofeng/my-knowledge/edit/main/docs/:path',
+      text: '在 GitHub 上编辑',
     },
 
     docFooter: {
