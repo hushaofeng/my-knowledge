@@ -13,5 +13,5 @@ tags:
 
 ---
 
-- [AI 编程实践指南](./work/ai-coding/) — 范式规范、团队规范、扩展应用
+- [AI 编程实践指南](./ai-coding/) — 范式规范、团队规范、扩展应用
 - [AI 工具使用](./ai-tools/) — Hermes Agent、邮箱自动化等工具实践
