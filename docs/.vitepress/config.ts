@@ -76,6 +76,7 @@ export default defineConfig({
             { text: '穷查理宝典', link: '/study/reading-notes/20260711-《穷查理宝典》读书笔记.md' },
             { text: '置身事内', link: '/study/reading-notes/20260711-《置身事内》读书笔记.md' },
             { text: '解剖人性1000条', link: '/study/reading-notes/20260711-《解剖人性1000条》读书笔记.md' },
+            { text: '顶尖家族智慧', link: '/study/reading-notes/20260711-《顶尖家族智慧》读书笔记.md' },
           ],
         },
       ],
