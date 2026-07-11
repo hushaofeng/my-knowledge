@@ -72,6 +72,7 @@ export default defineConfig({
           text: '读书笔记',
           items: [
             { text: '概览', link: '/study/reading-notes/' },
+            { text: '富爸爸富人的阴谋', link: '/study/reading-notes/20260710-《富爸爸富人的阴谋》读书笔记.md' },
           ],
         },
       ],
