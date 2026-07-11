@@ -67,6 +67,14 @@ export default defineConfig({
           ],
         },
       ],
+      '/study/reading-notes/': [
+        {
+          text: '读书笔记',
+          items: [
+            { text: '概览', link: '/study/reading-notes/' },
+          ],
+        },
+      ],
       '/study/teacher-cert/comprehensive-quality/': [
         {
           text: '综合素质（中学）',
