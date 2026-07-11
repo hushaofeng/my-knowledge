@@ -13,5 +13,62 @@ tags:
 
 ---
 
-- [AI 编程实践指南](./ai-coding/) — 范式规范、团队规范、扩展应用
-- [AI 工具使用](./ai-tools/) — Hermes Agent、邮箱自动化等工具实践
+<div class="vp-features">
+
+<div class="vp-feature">
+
+### 💼 AI 编程实践指南
+
+范式与规范、三种团队规模协作规范、全生命周期扩展应用。
+
+[进入 →](./ai-coding/)
+
+</div>
+
+<div class="vp-feature">
+
+### 🔧 AI 工具使用
+
+Hermes Agent 原理与使用、QQ 邮箱自动化等工具实践经验。
+
+[进入 →](./ai-tools/)
+
+</div>
+
+</div>
+
+<style>
+.vp-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin: 24px 0;
+}
+.vp-feature {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  padding: 24px;
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+.vp-feature:hover {
+  border-color: var(--vp-c-brand-1);
+  box-shadow: 0 2px 12px var(--vp-c-brand-soft);
+}
+.vp-feature h3 {
+  margin: 0 0 12px;
+  font-size: 1.15em;
+}
+.vp-feature p {
+  margin: 0 0 12px;
+  color: var(--vp-c-text-2);
+  line-height: 1.6;
+}
+.vp-feature a {
+  font-weight: 500;
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+}
+.vp-feature a:hover {
+  text-decoration: underline;
+}
+</style>
