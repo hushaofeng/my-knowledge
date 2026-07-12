@@ -19,6 +19,18 @@ export default defineConfig({
     ],
 
     sidebar: {
+      '/study/': [
+        {
+          text: '学习备考',
+          items: [
+            { text: '概览', link: '/study/' },
+            { text: '初中数学', link: '/study/junior-math/' },
+            { text: '读书笔记', link: '/study/reading-notes/' },
+            { text: '教师资格证', link: '/study/teacher-cert/' },
+            { text: '石头学习', link: '/study/shitou/' },
+          ],
+        },
+      ],
       '/work/ai-coding/': [
         {
           text: 'AI 编程实践指南',
