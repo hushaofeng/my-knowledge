@@ -108,10 +108,6 @@
   <circle cx="475" cy="415" r="8" fill="#F1C40F" stroke="#E67E22" stroke-width="2"/>
   <rect x="413" y="373" width="70" height="38" fill="#A0522D" rx="3"/>
   
-  <!-- 车道 -->
-  <path d="M405 425 L405 600 L495 600 L495 425" fill="#95A5A6" stroke="#7F8C8D" stroke-width="2"/>
-  <line x1="450" y1="445" x2="450" y2="600" stroke="#F5F5F5" stroke-width="4" stroke-dasharray="30,15"/>
-  
   <!-- 游泳池（动漫风格） -->
   <rect x="40" y="480" width="170" height="90" rx="15" fill="url(#pool)" stroke="#2471A3" stroke-width="4"/>
   <!-- 泳池水波纹 -->
