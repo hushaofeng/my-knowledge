@@ -82,6 +82,15 @@ export default defineConfig({
           ],
         },
       ],
+      '/study/shitou/': [
+        {
+          text: '石头学习',
+          items: [
+            { text: '概览', link: '/study/shitou/' },
+            { text: 'Day 001 - 别墅与花园', link: '/study/shitou/day001.md' },
+          ],
+        },
+      ],
       '/study/teacher-cert/comprehensive-quality/': [
         {
           text: '综合素质（中学）',
