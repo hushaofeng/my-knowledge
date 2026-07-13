@@ -104,6 +104,7 @@ export default defineConfig({
             { text: '影响力', link: '/study/reading-notes/20260713-《影响力》读书笔记.md' },
             { text: '看不见的大猩猩', link: '/study/reading-notes/20260713-《看不见的大猩猩》读书笔记.md' },
             { text: '助推', link: '/study/reading-notes/20260713-《助推》读书笔记.md' },
+            { text: '人性话术大师', link: '/study/reading-notes/20260713-《人性话术大师》读书笔记.md' },
           ],
         },
         {
@@ -114,6 +115,10 @@ export default defineConfig({
             { text: '置身事内', link: '/study/reading-notes/20260711-《置身事内》读书笔记.md' },
             { text: '自私的基因', link: '/study/reading-notes/20260713-《自私的基因》读书笔记.md' },
             { text: '枪炮、病菌与钢铁', link: '/study/reading-notes/20260712-《枪炮、病菌与钢铁》读书笔记.md' },
+            { text: '小镇喧嚣', link: '/study/reading-notes/20260713-《小镇喧嚣》读书笔记.md' },
+            { text: '舆论', link: '/study/reading-notes/20260713-《舆论》读书笔记.md' },
+            { text: '中国当代社会阶层分析', link: '/study/reading-notes/20260713-《中国当代社会阶层分析》读书笔记.md' },
+            { text: '中国官僚政治研究', link: '/study/reading-notes/20260713-《中国官僚政治研究》读书笔记.md' },
           ],
         },
         {
@@ -124,6 +129,16 @@ export default defineConfig({
             { text: '解剖人性1000条', link: '/study/reading-notes/20260711-《解剖人性1000条》读书笔记.md' },
             { text: '顶尖家族智慧', link: '/study/reading-notes/20260711-《顶尖家族智慧》读书笔记.md' },
             { text: '系统思考', link: '/study/reading-notes/20260712-《系统思考》读书笔记.md' },
+            { text: '让孩子自主学习', link: '/study/reading-notes/20260713-《让孩子自主学习的11个方案》读书笔记.md' },
+          ],
+        },
+        {
+          text: '💼 职场发展',
+          collapsed: false,
+          items: [
+            { text: '复盘', link: '/study/reading-notes/20260713-《复盘：对过去的事情做思维演练》读书笔记.md' },
+            { text: '干法', link: '/study/reading-notes/20260713-《干法》读书笔记.md' },
+            { text: '麦肯锡精英的48个工作习惯', link: '/study/reading-notes/20260713-《麦肯锡精英的48个工作习惯》读书笔记.md' },
           ],
         },
       ],
