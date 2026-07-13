@@ -89,6 +89,7 @@ export default defineConfig({
             { text: '置身事内', link: '/study/reading-notes/20260711-《置身事内》读书笔记.md' },
             { text: '解剖人性1000条', link: '/study/reading-notes/20260711-《解剖人性1000条》读书笔记.md' },
             { text: '顶尖家族智慧', link: '/study/reading-notes/20260711-《顶尖家族智慧》读书笔记.md' },
+            { text: '枪炮、病菌与钢铁', link: '/study/reading-notes/20260712-《枪炮、病菌与钢铁》读书笔记.md' },
             { text: '人性论', link: '/study/reading-notes/20260712-《人性论》读书笔记.md' },
             { text: '系统思考', link: '/study/reading-notes/20260712-《系统思考》读书笔记.md' },
           ],
