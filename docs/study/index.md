@@ -45,6 +45,16 @@ tags:
 
 </div>
 
+<div class="vp-feature">
+
+### 💡 点滴
+
+零散知识的收集与整理——视频笔记、文章摘录、碎片知识。
+
+[进入 →](./dian-di/)
+
+</div>
+
 </div>
 
 <style>
