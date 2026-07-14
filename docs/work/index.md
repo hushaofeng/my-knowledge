@@ -35,6 +35,16 @@ Hermes Agent 原理与使用、QQ 邮箱自动化等工具实践经验。
 
 </div>
 
+<div class="vp-feature">
+
+### 🌐 网络工具
+
+Wireshark 网络协议分析、流量捕获与安全检测。
+
+[进入 →](./network-tools/)
+
+</div>
+
 </div>
 
 <style>
