@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" width="300" height="240">
+<style>
+.ax{stroke:#bbb;stroke-width:.8;fill:none} .cv{stroke:#e74c3c;stroke-width:2;fill:none}
+.ln{stroke:#3498db;stroke-width:1.5;fill:none} .dm{stroke:#aaa;stroke-width:.8;stroke-dasharray:4 3;fill:none}
+.p{fill:#2c3e50} .lb{font:12px serif;fill:#2c3e50} .an{stroke:#27ae60;stroke-width:1;fill:rgba(39,174,96,.12)}
+.rt{stroke:#27ae60;stroke-width:1;fill:none} .sh{fill:rgba(52,152,219,.1);stroke:#3498db;stroke-width:1}
+.ci{stroke:#8e44ad;stroke-width:1.5;fill:none} .tn{stroke:#e67e22;stroke-width:1.5;fill:none}
+.rd{stroke:#e74c3c;stroke-width:1;stroke-dasharray:5 3;fill:none}
+</style><circle cx="150" cy="140" r="90" class="ci"/><line x1="227.9" y1="95.0" x2="81.1" y2="82.1" class="ln"/><line x1="81.1" y1="82.1" x2="72.1" y2="185.0" class="ln"/><line x1="72.1" y1="185.0" x2="218.9" y2="197.9" class="ln"/><line x1="218.9" y1="197.9" x2="227.9" y2="95.0" class="ln"/><circle cx="227.9" cy="95.0" r="3" class="p"/><text x="235.9" y="87.0" class="lb">A</text><circle cx="81.1" cy="82.1" r="3" class="p"/><text x="89.1" y="98.1" class="lb">B</text><circle cx="72.1" cy="185.0" r="3" class="p"/><text x="67.1" y="201.0" class="lb">C</text><circle cx="218.9" cy="197.9" r="3" class="p"/><text x="200.9" y="202.9" class="lb">D</text>
+</svg>
