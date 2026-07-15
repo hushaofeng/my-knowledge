@@ -1,0 +1,8 @@
+/* 自定义样式 - 页面浏览量统计 */
+
+/* 确保不蒜子脚本正常工作 */
+#busuanzi_container_site_pv,
+#busuanzi_container_site_uv,
+#busuanzi_container_page_pv {
+  display: none !important;
+}
