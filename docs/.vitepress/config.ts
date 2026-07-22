@@ -105,6 +105,7 @@ export default defineConfig({
             { text: '看不见的大猩猩', link: '/study/reading-notes/20260713-《看不见的大猩猩》读书笔记.md' },
             { text: '助推', link: '/study/reading-notes/20260713-《助推》读书笔记.md' },
             { text: '人性话术大师', link: '/study/reading-notes/20260713-《人性话术大师》读书笔记.md' },
+            { text: '与帕斯卡一起反脆弱性', link: '/study/reading-notes/20260722-《与帕斯卡一起反脆弱性》读书笔记.md' },
           ],
         },
         {
