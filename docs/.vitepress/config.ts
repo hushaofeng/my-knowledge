@@ -27,6 +27,7 @@ export default defineConfig({
             { text: '初中数学', link: '/study/junior-math/' },
             { text: '读书笔记', link: '/study/reading-notes/' },
             { text: '教师资格证', link: '/study/teacher-cert/' },
+            { text: 'AI Agent 实战', link: '/study/ai-agent-book/' },
             { text: '石头学习', link: '/study/shitou/' },
           ],
         },
@@ -149,6 +150,50 @@ export default defineConfig({
           items: [
             { text: '概览', link: '/study/shitou/' },
             { text: 'Day 001 - 别墅与花园', link: '/study/shitou/day001.md' },
+          ],
+        },
+      ],
+      '/study/ai-agent-book/': [
+        {
+          text: 'AI Agent 实战',
+          items: [
+            { text: '概览', link: '/study/ai-agent-book/' },
+          ],
+        },
+        {
+          text: '基础',
+          collapsed: false,
+          items: [
+            { text: '引言', link: '/study/ai-agent-book/00-introduction.md' },
+            { text: '第一章 Agent 基础知识', link: '/study/ai-agent-book/01-chapter1.md' },
+          ],
+        },
+        {
+          text: '构建',
+          collapsed: false,
+          items: [
+            { text: '第二章 上下文工程', link: '/study/ai-agent-book/02-chapter2.md' },
+            { text: '第三章 用户记忆和知识库', link: '/study/ai-agent-book/03-chapter3.md' },
+            { text: '第四章 工具', link: '/study/ai-agent-book/04-chapter4.md' },
+            { text: '第五章 Coding Agent', link: '/study/ai-agent-book/05-chapter5.md' },
+          ],
+        },
+        {
+          text: '评估与进化',
+          collapsed: false,
+          items: [
+            { text: '第六章 Agent 的评估', link: '/study/ai-agent-book/06-chapter6.md' },
+            { text: '第七章 模型后训练', link: '/study/ai-agent-book/07-chapter7.md' },
+            { text: '第八章 持续进化', link: '/study/ai-agent-book/08-chapter8.md' },
+          ],
+        },
+        {
+          text: '扩展',
+          collapsed: false,
+          items: [
+            { text: '第九章 多模态交互', link: '/study/ai-agent-book/09-chapter9.md' },
+            { text: '第十章 多 Agent 协作', link: '/study/ai-agent-book/10-chapter10.md' },
+            { text: '后记', link: '/study/ai-agent-book/11-afterword.md' },
           ],
         },
       ],
