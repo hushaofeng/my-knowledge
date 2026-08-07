@@ -29,6 +29,7 @@ export default defineConfig({
             { text: '教师资格证', link: '/study/teacher-cert/' },
             { text: 'AI Agent 实战', link: '/study/ai-agent-book/' },
             { text: '石头学习', link: '/study/shitou/' },
+            { text: '视频课程笔记', link: '/study/video-notes/' },
           ],
         },
       ],
@@ -141,6 +142,15 @@ export default defineConfig({
             { text: '复盘', link: '/study/reading-notes/20260713-《复盘：对过去的事情做思维演练》读书笔记.md' },
             { text: '干法', link: '/study/reading-notes/20260713-《干法》读书笔记.md' },
             { text: '麦肯锡精英的48个工作习惯', link: '/study/reading-notes/20260713-《麦肯锡精英的48个工作习惯》读书笔记.md' },
+          ],
+        },
+      ],
+      '/study/video-notes/': [
+        {
+          text: '视频课程笔记',
+          items: [
+            { text: '概览', link: '/study/video-notes/' },
+            { text: 'Hermes Agent + Harness Engineering', link: '/study/video-notes/20260807-hermes-agent-harness-engineering.md' },
           ],
         },
       ],
