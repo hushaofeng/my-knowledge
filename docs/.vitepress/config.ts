@@ -151,6 +151,7 @@ export default defineConfig({
           items: [
             { text: '概览', link: '/study/video-notes/' },
             { text: 'Hermes Agent + Harness Engineering', link: '/study/video-notes/20260807-hermes-agent-harness-engineering.md' },
+            { text: '人口之债：计划生育、房地产与养老困局', link: '/study/video-notes/20260807-人口之债计划生育房地产与养老困局.md' },
           ],
         },
       ],
