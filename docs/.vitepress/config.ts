@@ -86,6 +86,7 @@ export default defineConfig({
           text: '读书笔记',
           items: [
             { text: '概览', link: '/study/reading-notes/' },
+            { text: '📋 笔记框架说明', link: '/study/reading-notes/笔记框架说明.md' },
           ],
         },
         {
