@@ -111,6 +111,15 @@ export default defineConfig({
           ],
         },
         {
+          text: '📚 哲学思想',
+          collapsed: false,
+          items: [
+            { text: '沉思录', link: '/study/reading-notes/20260814-《沉思录》读书笔记.md' },
+            { text: '苏菲的世界', link: '/study/reading-notes/20260814-《苏菲的世界》读书笔记.md' },
+            { text: '中国哲学简史', link: '/study/reading-notes/20260814-《中国哲学简史》读书笔记.md' },
+          ],
+        },
+        {
           text: '📊 经济社会科学',
           collapsed: false,
           items: [
