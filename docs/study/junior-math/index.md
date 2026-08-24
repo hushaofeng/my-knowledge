@@ -26,20 +26,20 @@ tags:
 
 ### 三大压轴板块
 
-1. **二次函数** — 压轴题首选，每年必考（12-15 分）— [真题案例与解析](./quadratic-geometry.md)
-2. **圆** — 几何大题核心，切线定理+圆周角定理（8-10 分）— [真题案例与解析](./circle-problems.md)
-3. **相似三角形** — 几何综合题必备工具（6-8 分）— [真题案例与解析](./similar-triangles.md)
+1. **二次函数** — 压轴题首选，每年必考（12-15 分）— [真题案例与解析](./exam/quadratic-geometry.md)
+2. **圆** — 几何大题核心，切线定理+圆周角定理（8-10 分）— [真题案例与解析](./exam/circle-problems.md)
+3. **相似三角形** — 几何综合题必备工具（6-8 分）— [真题案例与解析](./exam/similar-triangles.md)
 
 ### 其他重难点真题案例
 
 | 板块 | 等级 | 链接 |
 |------|------|------|
-| 全等三角形 | 🔴🔴 | [真题案例与解析](./congruent-triangles.md) |
-| 一次函数 | 🔴🔴 | [真题案例与解析](./linear-function.md) |
-| 锐角三角函数 | 🔴 | [真题案例与解析](./trigonometry.md) |
-| 一元一次方程应用题 | 🔴 | [真题案例与解析](./equations-applications.md) |
-| 特殊平行四边形 | 🔴 | [真题案例与解析](./special-quadrilaterals.md) |
-| 勾股定理 | 🔴 | [真题案例与解析](./pythagorean-theorem.md) |
+| 全等三角形 | 🔴🔴 | [真题案例与解析](./exam/congruent-triangles.md) |
+| 一次函数 | 🔴🔴 | [真题案例与解析](./exam/linear-function.md) |
+| 锐角三角函数 | 🔴 | [真题案例与解析](./exam/trigonometry.md) |
+| 一元一次方程应用题 | 🔴 | [真题案例与解析](./exam/equations-applications.md) |
+| 特殊平行四边形 | 🔴 | [真题案例与解析](./exam/special-quadrilaterals.md) |
+| 勾股定理 | 🔴 | [真题案例与解析](./exam/pythagorean-theorem.md) |
 
 ## 🎮 图形化理解工具
 
