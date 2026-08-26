@@ -144,6 +144,7 @@ export default defineConfig({
             { text: '顶尖家族智慧', link: '/study/reading-notes/20260711-《顶尖家族智慧》读书笔记.md' },
             { text: '系统思考', link: '/study/reading-notes/20260712-《系统思考》读书笔记.md' },
             { text: '让孩子自主学习', link: '/study/reading-notes/20260713-《让孩子自主学习的11个方案》读书笔记.md' },
+            { text: '自驱型成长', link: '/study/reading-notes/20260826-《自驱型成长》读书笔记.md' },
           ],
         },
         {
