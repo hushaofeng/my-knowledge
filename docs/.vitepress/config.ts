@@ -110,6 +110,8 @@ export default defineConfig({
             { text: '人性话术大师', link: '/study/reading-notes/20260713-《人性话术大师》读书笔记.md' },
             { text: '与帕斯卡一起反脆弱性', link: '/study/reading-notes/20260722-《与帕斯卡一起反脆弱性》读书笔记.md' },
             { text: '打开心智', link: '/study/reading-notes/20260826-《打开心智》读书笔记.md' },
+            { text: '认知觉醒', link: '/study/reading-notes/20260826-《认知觉醒》读书笔记.md' },
+            { text: '学习之道', link: '/study/reading-notes/20260826-《学习之道》读书笔记.md' },
           ],
         },
         {
@@ -145,6 +147,8 @@ export default defineConfig({
             { text: '系统思考', link: '/study/reading-notes/20260712-《系统思考》读书笔记.md' },
             { text: '让孩子自主学习', link: '/study/reading-notes/20260713-《让孩子自主学习的11个方案》读书笔记.md' },
             { text: '自驱型成长', link: '/study/reading-notes/20260826-《自驱型成长》读书笔记.md' },
+            { text: '园丁与木匠', link: '/study/reading-notes/20260826-《园丁与木匠》读书笔记.md' },
+            { text: '唤醒内在的学习力', link: '/study/reading-notes/20260826-《唤醒内在的学习力》读书笔记.md' },
           ],
         },
         {
