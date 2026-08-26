@@ -7,7 +7,8 @@ const { Layout } = DefaultTheme
 
 <template>
   <Layout>
-    <template #doc-after>
+    <!-- layout-bottom 全站生效（含 layout: home 首页），doc-after 只在文章页生效 -->
+    <template #layout-bottom>
       <Busuanzi />
     </template>
   </Layout>
