@@ -149,6 +149,7 @@ export default defineConfig({
             { text: '自驱型成长', link: '/study/reading-notes/20260826-《自驱型成长》读书笔记.md' },
             { text: '园丁与木匠', link: '/study/reading-notes/20260826-《园丁与木匠》读书笔记.md' },
             { text: '唤醒内在的学习力', link: '/study/reading-notes/20260826-《唤醒内在的学习力》读书笔记.md' },
+            { text: '疲劳自救手册', link: '/study/reading-notes/20260827-《疲劳自救手册》读书笔记.md' },
           ],
         },
         {
