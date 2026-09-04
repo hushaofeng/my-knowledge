@@ -54,6 +54,17 @@ export default defineConfig({
           ],
         },
       ],
+      '/study/cyber-security/': [
+        { text: '网络安全技术', items: [
+          { text: '总览', link: '/study/cyber-security/' },
+          { text: '学习路线图', link: '/study/cyber-security/00-学习路线图.md' },
+          { text: '初级篇·筑基', link: '/study/cyber-security/01-初级篇-筑基.md' },
+          { text: '中级篇·攻防实战', link: '/study/cyber-security/02-中级篇-攻防实战.md' },
+          { text: '高级篇·专精', link: '/study/cyber-security/03-高级篇-专精.md' },
+          { text: '资源与认证地图', link: '/study/cyber-security/04-资源与认证地图.md' },
+          { text: '学习计划总览', link: '/study/cyber-security/学习计划/index.md' },
+        ]},
+      ],
       '/study/junior-math/': [
         {
           text: '初中数学知识体系',
