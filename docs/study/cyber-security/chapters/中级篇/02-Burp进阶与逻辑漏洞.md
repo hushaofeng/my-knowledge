@@ -92,24 +92,39 @@ DVWA 里手工构造越权场景：开两个浏览器 Profile 登录两个账号
 
 ## ✅ 自测题
 
-<details><summary>1. IDOR 的本质缺陷是什么？</summary>
+<details>
+<summary>1. IDOR 的本质缺陷是什么？</summary>
+
 后端用"客户端提供的标识"定位资源，却不校验"该标识是否属于当前认证主体"——对象级授权缺失（BOLA）。
+
 </details>
 
-<details><summary>2. 如何系统性发现越权点？</summary>
+<details>
+<summary>2. 如何系统性发现越权点？</summary>
+
 枚举全部带资源标识的接口 → 建双账号矩阵 → 逐接口互换标识 → 记录"应拒绝未拒绝"清单。
+
 </details>
 
-<details><summary>3. 支付篡改测试要先看什么？</summary>
+<details>
+<summary>3. 支付篡改测试要先看什么？</summary>
+
 金额/数量在哪一层计算（前端算好传入=高危信号）、后端是否重算、是否有签名/对账兜底。
+
 </details>
 
-<details><summary>4. 为什么逻辑漏洞扫描器扫不出来？</summary>
+<details>
+<summary>4. 为什么逻辑漏洞扫描器扫不出来？</summary>
+
 逻辑 = 业务规则（"这个用户不该看那个订单"），没有通用特征；只有理解业务的人才能判断"合理与否"。
+
 </details>
 
-<details><summary>5. SameSite 能否替代 CSRF Token？</summary>
+<details>
+<summary>5. SameSite 能否替代 CSRF Token？</summary>
+
 能防大部分跨站场景，但同站子域、顶级导航 GET 等路径仍可绕；高价值操作建议 Token+SameSite 双保险。
+
 </details>
 
 ## 🔗 对应周任务与资源

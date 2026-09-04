@@ -82,24 +82,39 @@ tags: [网络安全, 中级]
 
 ## ✅ 自测题
 
-<details><summary>1. SRC 测试为什么"拿到数据即止"？</summary>
+<details>
+<summary>1. SRC 测试为什么"拿到数据即止"？</summary>
+
 法律上"获取数据"的量与类型决定是否触刑（侵犯公民个人信息罪）；渗透的目的是证明漏洞存在，不是展示破坏力——最小证据原则既合规也是职业素养。
+
 </details>
 
-<details><summary>2. 为什么"边缘资产"优先测？</summary>
+<details>
+<summary>2. 为什么"边缘资产"优先测？</summary>
+
 测试环境/老系统补丁与监控通常滞后于主站，攻击者实际也这么想——投入产出比最高，且多为低危起步的好战场。
+
 </details>
 
-<details><summary>3. 报告标题的三个要素？</summary>
+<details>
+<summary>3. 报告标题的三个要素？</summary>
+
 厂商+系统+漏洞类型与一句话影响——让审核员 3 秒判断价值与归属。
+
 </details>
 
-<details><summary>4. PTE 实操考的评分重心？</summary>
+<details>
+<summary>4. PTE 实操考的评分重心？</summary>
+
 攻击链完整性与报告质量：过程截图、每步依据、修复建议——只拿 flag 不写过程得不了高分。
+
 </details>
 
-<details><summary>5. 被拒后正确的动作？</summary>
+<details>
+<summary>5. 被拒后正确的动作？</summary>
+
 读拒因→区分"质量差/范围外/重复"→属质量问题按公式改写重交，属范围问题立即停止该目标——把拒单当免费评审。
+
 </details>
 
 ## 🔗 对应周任务与资源

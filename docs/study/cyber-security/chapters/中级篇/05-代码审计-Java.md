@@ -94,24 +94,39 @@ ObjectInputStream.readObject()
 
 ## ✅ 自测题
 
-<details><summary>1. 为什么说 readObject "等于另一个 eval"？</summary>
+<details>
+<summary>1. 为什么说 readObject "等于另一个 eval"？</summary>
+
 它会执行恢复对象的 readObject() 定义逻辑，攻击者可通过字节流选择"执行哪条已存在于 classpath 的构造链"，数据即代码。
+
 </details>
 
-<details><summary>2. CC 链中 InvokerTransformer 的角色？</summary>
+<details>
+<summary>2. CC 链中 InvokerTransformer 的角色？</summary>
+
 反射任意调用的通用积木：构造时指定 方法名/参数类型/参数值，transform 时对输入对象 invoke——把"字符串描述的方法调用"变成真实执行。
+
 </details>
 
-<details><summary>3. JEP 290 防御了什么？</summary>
+<details>
+<summary>3. JEP 290 防御了什么？</summary>
+
 序列化过滤：反序列化时按白名单/黑名单校验即将恢复的类，不在名单内直接拒绝——从根上限制 gadget 的可达类集合。
+
 </details>
 
-<details><summary>4. 补丁 diff 里看到"新增正则过滤 ..\."，推断什么？</summary>
+<details>
+<summary>4. 补丁 diff 里看到"新增正则过滤 ..\."，推断什么？</summary>
+
 原版本存在路径遍历且当前只修了字面 ../——结合历史绕过经验可测 URL 编码（..%2f）、双重编码等 1-day 变体。
+
 </details>
 
-<details><summary>5. 审计报告里"数据流图"的价值？</summary>
+<details>
+<summary>5. 审计报告里"数据流图"的价值？</summary>
+
 把"source（用户输入）→ sink（危险函数）"的路径显式化，让修复者精确定位该在哪一层拦（入口校验/汇点白名单），也是漏洞可信度的证明。
+
 </details>
 
 ## 🔗 对应周任务与资源

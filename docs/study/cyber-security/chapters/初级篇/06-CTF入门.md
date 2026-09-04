@@ -92,24 +92,39 @@ tags: [网络安全, 初级]
 
 ## ✅ 自测题
 
-<details><summary>1. 为什么robots.txt 常成为 Web 题突破口？</summary>
+<details>
+<summary>1. 为什么robots.txt 常成为 Web 题突破口？</summary>
+
 它本身公开可读，但列出的 Disallow 路径=站长不想被看到的敏感目录清单，直接变成攻击者路标。
+
 </details>
 
-<details><summary>2. Web 题里"参数类型↔漏洞族"怎么匹配？</summary>
+<details>
+<summary>2. Web 题里"参数类型↔漏洞族"怎么匹配？</summary>
+
 数字 ID→SQL 注入（数字型）；文件名/路径→上传/包含/遍历；内容渲染→XSS/SSTI；URL 参数→SSRF；Cookie/JWT→越权与会话缺陷。
+
 </details>
 
-<details><summary>3. Writeup 中"反思"为什么重要？</summary>
+<details>
+<summary>3. Writeup 中"反思"为什么重要？</summary>
+
 把单题经验抽象成可迁移的模式（如"先看公开信息再上工具"），这是从做题者到工程师的分水岭。
+
 </details>
 
-<details><summary>4. Misc 题对 Web 手的帮助是什么？</summary>
+<details>
+<summary>4. Misc 题对 Web 手的帮助是什么？</summary>
+
 训练信息敏感度与工具箱广度（strings/binwalk/file），Web 题里的图片/附件/流量包全靠这套基本功。
+
 </details>
 
-<details><summary>5. 为什么禁 sqlmap 刷新手题？</summary>
+<details>
+<summary>5. 为什么禁 sqlmap 刷新手题？</summary>
+
 新手题的 payload 都能手工构造；先手工建立"注入是什么"的肌肉记忆，工具才有正确的使用场景（省时间而非替你思考）。
+
 </details>
 
 ## 🔗 对应周任务与资源

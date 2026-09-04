@@ -117,24 +117,39 @@ nmap -sS -sV -p 1-1000 --top-ports 100 192.168.56.101   # 仅限自家虚拟机
 
 ## ✅ 自测题
 
-<details><summary>1. 4755 与 0755 的区别？</summary>
+<details>
+<summary>1. 4755 与 0755 的区别？</summary>
+
 4 是 SUID 位：任何用户执行该文件时，进程的 effective UID 变为文件属主（通常 root）——提权排查的核心对象。
+
 </details>
 
-<details><summary>2. 为什么 -sS 扫描在目标应用日志里不可见？</summary>
+<details>
+<summary>2. 为什么 -sS 扫描在目标应用日志里不可见？</summary>
+
 三次握手从未完成（SYN/ACK 后收到 RST），应用进程从未 accept 该连接，应用层日志自然无记录；但网络层设备可见。
+
 </details>
 
-<details><summary>3. 一条管道统计 access.log 中 404 最多的 10 个路径？</summary>
+<details>
+<summary>3. 一条管道统计 access.log 中 404 最多的 10 个路径？</summary>
+
 awk '$9==404 {print $7}' access.log | sort | uniq -c | sort -rn | head
+
 </details>
 
-<details><summary>4. 应急排查"可疑进程"的三步？</summary>
-ss -tlnp 找监听 → ps /proc/<pid>/exe 看真实路径（注意被删除仍运行的进程显示 (deleted)）→ lsof -p <pid> 看它打开的文件与连接。
+<details>
+<summary>4. 应急排查"可疑进程"的三步？</summary>
+
+ss -tlnp 找监听 → ps /proc/`<pid>`/exe 看真实路径（注意被删除仍运行的进程显示 (deleted)）→ lsof -p `<pid>` 看它打开的文件与连接。
+
 </details>
 
-<details><summary>5. /tmp 为什么要加 Sticky 位？</summary>
+<details>
+<summary>5. /tmp 为什么要加 Sticky 位？</summary>
+
 让所有人可写（协作需要），但只能删除属于自己的文件——否则任何用户可互删对方文件（早期的 DoS/提权辅助面）。
+
 </details>
 
 ## 🔗 对应周任务与资源

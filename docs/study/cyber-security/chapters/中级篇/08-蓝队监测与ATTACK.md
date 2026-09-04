@@ -107,24 +107,39 @@ Wazuh 单机部署（docker 或 OVA）→ 造 3 个事件（暴破失败/webshel
 
 ## ✅ 自测题
 
-<details><summary>1. 为什么说"日志质量决定检测上限"？</summary>
+<details>
+<summary>1. 为什么说"日志质量决定检测上限"？</summary>
+
 规则再好，日志缺字段（如未开命令审计/未记录 DNS）就永远检不出对应行为——数据源覆盖先于规则编写。
+
 </details>
 
-<details><summary>2. 研判"外连 C2 心跳"最关键的证据？</summary>
+<details>
+<summary>2. 研判"外连 C2 心跳"最关键的证据？</summary>
+
 外连时序规律性（固定间隔/抖动极小）+ 目标域名/IP 情报 + 结合主机侧是否有对应进程——单靠流量特征容易误判定时任务。
+
 </details>
 
-<details><summary>3. ATT&CK 映射对护网蓝队的实际用处？</summary>
+<details>
+<summary>3. ATT&CK 映射对护网蓝队的实际用处？</summary>
+
 统一攻击描述语言：值班报告写"T1059+T1053 组合"各方即时理解；也用于盘点检测覆盖（哪些战术有日志无规则）。
+
 </details>
 
-<details><summary>4. 告警级别怎么定才不疲劳？</summary>
+<details>
+<summary>4. 告警级别怎么定才不疲劳？</summary>
+
 按"置信度×影响"分级：高置信高影响才 high；低置信但可观测的放 low/info 只记录不推送——推送量控制在人能处理的上限内。
+
 </details>
 
-<details><summary>5. Sigma 的核心价值？</summary>
+<details>
+<summary>5. Sigma 的核心价值？</summary>
+
 检测逻辑与平台解耦：一次编写，可转换到 Splunk/Elastic/QRadar 等——规则成为可迁移的组织资产。
+
 </details>
 
 ## 🔗 对应周任务与资源

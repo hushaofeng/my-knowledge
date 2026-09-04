@@ -94,24 +94,39 @@ pickle.loads(user_bytes)   # ← 天然 RCE：pickle 协议支持 REDUCE 操作�
 
 ## ✅ 自测题
 
-<details><summary>1. "0e123" == "0e456" 为什么为 true？</summary>
+<details>
+<summary>1. "0e123" == "0e456" 为什么为 true？</summary>
+
 PHP == 比较时两者都符合科学计数法格式，被解析为浮点 0*10^123 == 0*10^456 = 0 == 0。用于绕"两个不同字符串但 MD5 相等"类校验（用 0e 开头的 MD5 碰撞串）。
+
 </details>
 
-<details><summary>2. PHP 反序列化的攻击入口为什么是魔术方法？</summary>
+<details>
+<summary>2. PHP 反序列化的攻击入口为什么是魔术方法？</summary>
+
 unserialize 恢复对象时会自动触发 __wakeup/__destruct 等生命周期方法；gadget 链借这些"自动调用点"启动，后续环靠类内自定义逻辑衔接。
+
 </details>
 
-<details><summary>3. pickle 为什么比 JSON 危险？</summary>
+<details>
+<summary>3. pickle 为什么比 JSON 危险？</summary>
+
 JSON 只表达数据；pickle 协议可表达"构造对象的指令"（REDUCE 操作码），loads 时执行任意可调用对象——数据与代码未分离。
+
 </details>
 
-<details><summary>4. Flask debug 模式的生产风险链？</summary>
+<details>
+<summary>4. Flask debug 模式的生产风险链？</summary>
+
 任意文件读（LFI/SSRF 组合）→ 读取 machine-id/MAC/用户名 → 计算 Werkzeug PIN → 访问 /console 得到交互式 Python 控制台 → RCE。生产必须关 debug。
+
 </details>
 
-<details><summary>5. 审计中"过滤边界图"指什么？</summary>
+<details>
+<summary>5. 审计中"过滤边界图"指什么？</summary>
+
 标出全局过滤（GPC 转义/WAF/框架中间件）作用与失效条件，找"局部漏网"——漏洞几乎都在过滤覆盖的接缝处。
+
 </details>
 
 ## 🔗 对应周任务与资源

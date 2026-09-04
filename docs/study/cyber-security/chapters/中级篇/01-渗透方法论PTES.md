@@ -81,24 +81,39 @@ nmap -sS -sV 结果
 
 ## ✅ 自测题
 
-<details><summary>1. 为什么"授权书"是阶段 1 而不是形式？</summary>
+<details>
+<summary>1. 为什么"授权书"是阶段 1 而不是形式？</summary>
+
 它定义了合法边界：目标 IP 段、允许的强度、时间窗、应急联系人。超出即违法；它同时保护测试方与被测方。
+
 </details>
 
-<details><summary>2. nmap 发现 6379 开放（Redis），下一步优先验证什么？</summary>
+<details>
+<summary>2. nmap 发现 6379 开放（Redis），下一步优先验证什么？</summary>
+
 未授权访问：redis-cli 直连测试 CONFIG/INFO 权限——Redis 未授权是历史高频"直接进场"漏洞。
+
 </details>
 
-<details><summary>3. 报告里"影响面"为什么比"payload"重要？</summary>
+<details>
+<summary>3. 报告里"影响面"为什么比"payload"重要？</summary>
+
 客户决策依据是业务风险（哪些数据/系统受影响、被利用后果），payload 只是证据。
+
 </details>
 
-<details><summary>4. 枚举为什么值得做三遍？</summary>
+<details>
+<summary>4. 枚举为什么值得做三遍？</summary>
+
 不同工具覆盖不同面（端口/目录/用户/接口），且首轮认知会过滤掉"当时没意识到重要"的信息。
+
 </details>
 
-<details><summary>5. 版本号信息如何转化为攻击面？</summary>
+<details>
+<summary>5. 版本号信息如何转化为攻击面？</summary>
+
 "软件名+版本"检索已知 CVE/公开 exploit；同时评估利用条件（需认证?需要特定配置?）是否满足。
+
 </details>
 
 ## 🔗 对应周任务与资源

@@ -152,24 +152,39 @@ def main():
 
 ## ✅ 自测题
 
-<details><summary>1. socket 超时和 ConnectionRefused 分别对应什么网络行为？</summary>
+<details>
+<summary>1. socket 超时和 ConnectionRefused 分别对应什么网络行为？</summary>
+
 超时 = 无响应（防火墙 DROP 或主机不在线）；Refused = 收到 RST（主机在线但端口未监听）。
+
 </details>
 
-<details><summary>2. 为什么 crt.sh 能枚举子域名？</summary>
+<details>
+<summary>2. 为什么 crt.sh 能枚举子域名？</summary>
+
 CA 签发证书必须写入公开的证书透明度日志，SAN 字段里的域名全部可查——"内网命名规范"常因此泄露。
+
 </details>
 
-<details><summary>3. asyncio 比 threading 快的真正原因？</summary>
+<details>
+<summary>3. asyncio 比 threading 快的真正原因？</summary>
+
 单线程事件循环避免了线程切换开销与 GIL 争用，I/O 等待在 await 处让出——纯 I/O 密集场景优势最大。
+
 </details>
 
-<details><summary>4. 目录爆破为什么要记录响应长度？</summary>
+<details>
+<summary>4. 目录爆破为什么要记录响应长度？</summary>
+
 很多站 404 也返回 200 状态码（软 404 自定义页面），长度一致性可以识别"真 404 模板"。
+
 </details>
 
-<details><summary>5. PoC 为什么必须参数化目标？</summary>
+<details>
+<summary>5. PoC 为什么必须参数化目标？</summary>
+
 防误用与追责清晰：显式传入意味着使用者明确知道自己在打谁，也是授权范围控制的工程实现。
+
 </details>
 
 ## 🔗 对应周任务与资源

@@ -117,24 +117,39 @@ DVWA 部署（docker 一行）：`docker run -d -p 80:80 vulnerables/web-dvwa`
 
 ## ✅ 自测题
 
-<details><summary>1. 参数化查询为什么能根治 SQL 注入？</summary>
+<details>
+<summary>1. 参数化查询为什么能根治 SQL 注入？</summary>
+
 SQL 结构与数据在协议层分离：输入永远作为数据（绑定参数）传输，不进入 SQL 解析器的代码上下文——无论输入什么都改变不了语句结构。
+
 </details>
 
-<details><summary>2. HttpOnly 防得住 XSS 吗？</summary>
+<details>
+<summary>2. HttpOnly 防得住 XSS 吗？</summary>
+
 防不住 XSS 本身，只防住"偷 Cookie"这一种后果。XSS 仍可代用户发请求、改页面。纵深防御：编码+CSP+HttpOnly 一起上。
+
 </details>
 
-<details><summary>3. SameSite=Lax 能防全部 CSRF？</summary>
+<details>
+<summary>3. SameSite=Lax 能防全部 CSRF？</summary>
+
 不能。Lax 拦跨站 POST，但顶级导航 GET 仍带 Cookie；GET 型状态变更操作依然可被打。
+
 </details>
 
-<details><summary>4. 为什么 SSRF 在云上危害骤增？</summary>
+<details>
+<summary>4. 为什么 SSRF 在云上危害骤增？</summary>
+
 云元数据服务（169.254.169.254）从内网可达且返回临时凭证——SSRF 打到它等于拿到云 API 权限（如获取角色 Token）。
+
 </details>
 
-<details><summary>5. input 校验和 output 编码，哪个是 XSS 的正解？</summary>
+<details>
+<summary>5. input 校验和 output 编码，哪个是 XSS 的正解？</summary>
+
 输出编码。输入校验降低风险但绕过场景多；XSS 的本质是"数据进入代码上下文"，在输出点按上下文编码才是根修。
+
 </details>
 
 ## 🔗 对应周任务与资源
