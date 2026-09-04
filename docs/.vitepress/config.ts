@@ -54,6 +54,26 @@ export default defineConfig({
           ],
         },
       ],
+      '/study/harmonica/': [
+        { text: '🎵 口琴曲谱', items: [
+          { text: '总览 · 记谱说明 · 练习法', link: '/study/harmonica/' },
+          { text: '01 小星星', link: '/study/harmonica/scores/01-小星星.md' },
+          { text: '02 欢乐颂', link: '/study/harmonica/scores/02-欢乐颂.md' },
+          { text: '03 粉刷匠', link: '/study/harmonica/scores/03-粉刷匠.md' },
+          { text: '04 送别', link: '/study/harmonica/scores/04-送别.md' },
+          { text: '05 茉莉花', link: '/study/harmonica/scores/05-茉莉花.md' },
+          { text: '06 新年好', link: '/study/harmonica/scores/06-新年好.md' },
+          { text: '07 甜蜜蜜', link: '/study/harmonica/scores/07-甜蜜蜜.md' },
+          { text: '08 外婆的澎湖湾', link: '/study/harmonica/scores/08-外婆的澎湖湾.md' },
+          { text: '09 童年', link: '/study/harmonica/scores/09-童年.md' },
+          { text: '10 走在乡间的小路上', link: '/study/harmonica/scores/10-走在乡间的小路上.md' },
+          { text: '11 光阴的故事', link: '/study/harmonica/scores/11-光阴的故事.md' },
+          { text: '12 同桌的你', link: '/study/harmonica/scores/12-同桌的你.md' },
+          { text: '13 女儿情', link: '/study/harmonica/scores/13-女儿情.md' },
+          { text: '14 天空之城', link: '/study/harmonica/scores/14-天空之城.md' },
+          { text: '15 月亮代表我的心', link: '/study/harmonica/scores/15-月亮代表我的心.md' },,
+        ]},
+      ],
       '/study/cyber-security/': [
         { text: '网络安全技术', items: [
           { text: '总览', link: '/study/cyber-security/' },
