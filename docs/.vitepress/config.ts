@@ -8,6 +8,7 @@ export default defineConfig({
   cleanUrls: false,
   lastUpdated: true,
   ignoreDeadLinks: true,
+  markdown: { math: true },
 
   themeConfig: {
     logo: '/logo.svg',
@@ -137,6 +138,48 @@ export default defineConfig({
             { text: '勾股定理', link: '/study/junior-math/exam/pythagorean-theorem.md' },
           ],
         },
+        {
+          text: '🏅 数学奥数教程',
+          items: [
+            { text: '奥数教程总览', link: '/study/junior-math/olympiad/' },
+          ],
+        },
+        { text: '🔢 数论模块', collapsed: true, items: [
+          { text: '模块总览', link: '/study/junior-math/olympiad/number-theory/' },
+          { text: '01 整除与带余除法', link: '/study/junior-math/olympiad/number-theory/01-divisibility.md' },
+          { text: '02 质数合数与分解质因数', link: '/study/junior-math/olympiad/number-theory/02-primes.md' },
+          { text: '03 约数与倍数', link: '/study/junior-math/olympiad/number-theory/03-factors-multiples.md' },
+          { text: '04 奇偶分析', link: '/study/junior-math/olympiad/number-theory/04-parity.md' },
+          { text: '05 同余与周期问题', link: '/study/junior-math/olympiad/number-theory/05-modular.md' },
+          { text: '06 不定方程', link: '/study/junior-math/olympiad/number-theory/06-indeterminate.md' },
+        ]},
+        { text: '🧮 代数模块', collapsed: true, items: [
+          { text: '模块总览', link: '/study/junior-math/olympiad/algebra/' },
+          { text: '01 绝对值与有理数', link: '/study/junior-math/olympiad/algebra/01-absolute-value.md' },
+          { text: '02 因式分解与恒等变形', link: '/study/junior-math/olympiad/algebra/02-factorization.md' },
+          { text: '03 分式与根式', link: '/study/junior-math/olympiad/algebra/03-fraction-radical.md' },
+          { text: '04 一元二次方程与韦达定理', link: '/study/junior-math/olympiad/algebra/04-quadratic.md' },
+          { text: '05 不等式与最值', link: '/study/junior-math/olympiad/algebra/05-inequality.md' },
+          { text: '06 函数综合', link: '/study/junior-math/olympiad/algebra/06-function.md' },
+        ]},
+        { text: '📐 几何模块', collapsed: true, items: [
+          { text: '模块总览', link: '/study/junior-math/olympiad/geometry/' },
+          { text: '01 三角形与全等进阶', link: '/study/junior-math/olympiad/geometry/01-triangle-congruence.md' },
+          { text: '02 等腰三角形与轴对称', link: '/study/junior-math/olympiad/geometry/02-isosceles-symmetry.md' },
+          { text: '03 面积问题与等积变形', link: '/study/junior-math/olympiad/geometry/03-area.md' },
+          { text: '04 相似三角形进阶', link: '/study/junior-math/olympiad/geometry/04-similarity.md' },
+          { text: '05 圆与圆幂定理', link: '/study/junior-math/olympiad/geometry/05-circle.md' },
+          { text: '06 几何变换', link: '/study/junior-math/olympiad/geometry/06-transformation.md' },
+        ]},
+        { text: '🎲 组合模块', collapsed: true, items: [
+          { text: '模块总览', link: '/study/junior-math/olympiad/combinatorics/' },
+          { text: '01 计数原理与排列组合', link: '/study/junior-math/olympiad/combinatorics/01-counting.md' },
+          { text: '02 抽屉原理', link: '/study/junior-math/olympiad/combinatorics/02-pigeonhole.md' },
+          { text: '03 容斥原理', link: '/study/junior-math/olympiad/combinatorics/03-inclusion-exclusion.md' },
+          { text: '04 染色覆盖与构造', link: '/study/junior-math/olympiad/combinatorics/04-coloring.md' },
+          { text: '05 操作与策略', link: '/study/junior-math/olympiad/combinatorics/05-game-strategy.md' },
+          { text: '06 逻辑推理与定义新运算', link: '/study/junior-math/olympiad/combinatorics/06-logic.md' },
+        ]},
       ],
       '/study/reading-notes/': [
         {
